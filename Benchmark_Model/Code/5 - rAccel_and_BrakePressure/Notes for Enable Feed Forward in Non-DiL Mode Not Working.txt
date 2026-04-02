@@ -1,0 +1,7 @@
+Notes on Feedforward_v3_0.py with Offline Balance Version:
+ 
+Packet accumulation between server and client
+Multi-threading operations
+Discrepancies between balance vehicle model setup vs DiL setup
+Feedforward relies on inputting raw brake pressures (pBrakeFiA), something the offline model can't do
+Can ONLY be tested at ~100% vCar  

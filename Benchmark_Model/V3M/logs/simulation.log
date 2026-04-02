@@ -1,0 +1,1917 @@
+2025-10-22 13:27:02,091 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-10-22 13:27:02,504 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-10-22 13:33:03,213 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-10-22 13:33:03,579 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-10-22 14:58:03,990 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-10-22 14:58:04,433 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-10-22 14:58:04,551 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2025-10-22 14:58:36,877 | INFO | MainThread | V3M | Starting server task
+2025-10-22 14:58:36,900 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2025-10-22 14:58:36,925 | INFO | Thread-2 | V3M | Starting UDP server...
+2025-10-22 14:58:36,957 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2025-10-22 14:58:39,755 | INFO | Thread-2 | V3M | Client connected: ('127.0.0.1', 51021)
+2025-10-22 14:58:39,787 | INFO | Thread-2 | V3M | Server stopped.
+2025-10-22 14:58:39,803 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2025-10-22 14:58:43,965 | INFO | MainThread | V3M | Simulation starting...
+2025-10-22 14:58:44,000 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2025-10-22 14:58:44,028 | INFO | Thread-3 | V3M | Backend simulation loop starting
+2025-10-22 14:58:44,044 | INFO | Thread-3 | V3M | Validating track file selection
+2025-10-22 14:58:44,248 | INFO | Thread-3 | V3M | Track file read successfully: \\cust-fs02\jaguarracing\Software\V3M\Trajectories\MiamiS11_Run_4900.csv (rows=1910, cols=6)
+2025-10-22 14:58:44,391 | INFO | Thread-3 | V3M | Trajectory loaded: \\cust-fs02\jaguarracing\Software\V3M\Trajectories\MiamiS11_Run_4900.csv (rows=1910)
+2025-10-22 14:58:44,422 | INFO | Thread-3 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2025-10-22 14:58:44,548 | INFO | Thread-3 | V3M | Waiting for client loop entered
+2025-10-22 14:58:44,676 | INFO | Thread-3 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3507.94
+2025-10-22 14:58:53,025 | INFO | Thread-3 | V3M | Velocity percentage changed to 92%
+2025-10-22 14:59:10,989 | INFO | Thread-3 | V3M | Velocity percentage changed to 70%
+2025-10-22 14:59:34,450 | INFO | Thread-3 | V3M | Velocity percentage changed to 90%
+2025-10-22 15:00:13,031 | INFO | Thread-3 | V3M | Velocity percentage changed to 92%
+2025-10-22 15:00:14,325 | INFO | Thread-3 | V3M | Lap 1 completed in 137.248s
+2025-10-22 15:00:27,922 | INFO | Thread-3 | V3M | Velocity percentage changed to 70%
+2025-10-22 15:00:37,955 | ERROR | Thread-3 | root | Unrealistic vehicle speed detected: vCar=3116.97 m/s; breaking simulation loop
+2025-10-22 15:00:37,987 | INFO | Thread-3 | V3M | Client connection closed / final braking command sent
+2025-10-22 15:00:38,035 | INFO | Thread-3 | V3M | Final lap time recorded: 55.122s
+2025-10-22 15:00:38,051 | INFO | Thread-3 | V3M | Server socket closed
+2025-10-22 15:00:38,083 | INFO | Thread-3 | V3M | Generating plots...
+2025-10-22 15:00:40,184 | WARNING | Thread-3 | V3M | Plot function plotTraj returned None
+2025-10-22 15:00:41,042 | WARNING | Thread-3 | V3M | Plot function plot_e_phi_Values returned None
+2025-10-22 15:00:42,512 | WARNING | Thread-3 | V3M | Plot function plot_e_l_Values returned None
+2025-10-22 15:00:43,368 | WARNING | Thread-3 | V3M | Plot function plot_balance_Values returned None
+2025-10-22 15:00:44,531 | WARNING | Thread-3 | V3M | Plot function plot_Angles returned None
+2025-10-22 15:00:45,519 | WARNING | Thread-3 | V3M | Plot function plot_Torque returned None
+2025-10-22 15:00:46,519 | WARNING | Thread-3 | V3M | Plot function plot_TargetValues returned None
+2025-10-22 15:00:47,428 | WARNING | Thread-3 | V3M | Plot function plot_PedalValues returned None
+2025-10-22 15:00:48,629 | WARNING | Thread-3 | V3M | Plot function plot_nMGU_Values returned None
+2025-10-22 15:00:49,968 | WARNING | Thread-3 | V3M | Plot function plot_Throttle_PID_Values returned None
+2025-10-22 15:00:50,861 | WARNING | Thread-3 | V3M | Plot function plot_Brake_PID_Values returned None
+2025-10-22 15:00:51,766 | WARNING | Thread-3 | V3M | Plot function plot_vCar_error_Values returned None
+2025-10-22 15:00:52,615 | WARNING | Thread-3 | V3M | Plot function plot_refDistances returned None
+2025-10-22 15:00:52,636 | INFO | Thread-3 | V3M | Plot generation complete: 0/13 figures created
+2025-10-22 15:00:52,661 | INFO | Thread-3 | V3M | Figures saved locally (count=0)
+2025-10-22 15:00:52,693 | INFO | Thread-3 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2025-10-22 15:00:52,740 | INFO | Thread-3 | V3M | BackgroundTask stop requested: run_backend_script
+2025-10-22 15:01:02,178 | INFO | MainThread | V3M | Simulation reset button pressed
+2025-10-22 15:01:02,210 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2025-10-22 15:01:02,242 | INFO | Thread-4 | V3M | Simulation reset initiated
+2025-10-22 15:01:02,242 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-10-22 15:01:02,290 | INFO | Thread-4 | V3M | Simulation reset completed
+2025-10-22 15:01:02,325 | INFO | Thread-4 | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-10-22 15:41:22,060 | INFO | MainThread | V3M | Application closing requested
+2025-10-22 15:41:22,092 | INFO | MainThread | V3M | Tkinter main loop quit
+2025-10-22 15:41:22,108 | INFO | MainThread | V3M | Application exited cleanly
+2025-11-03 11:28:07,619 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-11-03 11:28:08,029 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-11-03 11:28:08,128 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2025-11-03 11:30:38,057 | INFO | MainThread | V3M | Application closing requested
+2025-11-03 11:30:38,089 | INFO | MainThread | V3M | Tkinter main loop quit
+2025-11-03 11:30:38,107 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-18 11:26:42,749 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2026-02-18 11:26:42,875 | INFO | MainThread | V3M | ConsoleApp initialized
+2026-02-18 11:26:42,897 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2026-02-18 11:28:05,550 | INFO | MainThread | V3M | Starting server task
+2026-02-18 11:28:05,550 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-18 11:28:05,552 | INFO | Thread-2 | V3M | Starting UDP server...
+2026-02-18 11:28:05,554 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2026-02-18 11:45:10,033 | INFO | MainThread | V3M | Application closing requested
+2026-02-18 11:45:10,034 | INFO | MainThread | V3M | Tkinter main loop quit
+2026-02-18 11:45:10,035 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-18 12:03:49,438 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2026-02-18 12:03:49,747 | INFO | MainThread | V3M | ConsoleApp initialized
+2026-02-18 12:03:49,778 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2026-02-18 12:03:50,228 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2026-02-18 12:03:50,334 | INFO | MainThread | V3M | ConsoleApp initialized
+2026-02-18 12:03:50,361 | ERROR | ResetListener | V3M | Exception in start_reset_listener: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 1612, in listen_for_reset
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-02-18 12:03:51,606 | INFO | MainThread | V3M | Application closing requested
+2026-02-18 12:03:51,606 | INFO | MainThread | V3M | Tkinter main loop quit
+2026-02-18 12:03:51,607 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-18 12:09:03,495 | INFO | MainThread | V3M | Starting server task
+2026-02-18 12:09:03,495 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-18 12:09:03,497 | INFO | Thread-2 | V3M | Starting UDP server...
+2026-02-18 12:09:03,499 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2026-02-18 12:09:06,198 | INFO | Thread-2 | V3M | Client connected: ('127.0.0.1', 63104)
+2026-02-18 12:09:06,199 | INFO | Thread-2 | V3M | Server stopped.
+2026-02-18 12:09:06,199 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2026-02-18 12:09:17,102 | INFO | MainThread | V3M | Simulation starting...
+2026-02-18 12:09:17,105 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-18 12:09:17,106 | INFO | Thread-3 | V3M | Backend simulation loop starting
+2026-02-18 12:09:17,116 | INFO | Thread-3 | V3M | Validating track file selection
+2026-02-18 12:09:17,402 | INFO | Thread-3 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-18 12:09:17,406 | INFO | Thread-3 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-18 12:09:17,407 | INFO | Thread-3 | V3M | Parameters loaded | Dil=False, laps=5, e_phi_gain=2.000, steer_limits=28.000
+2026-02-18 12:09:17,408 | INFO | Thread-3 | V3M | Waiting for client loop entered
+2026-02-18 12:09:17,541 | INFO | Thread-3 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-18 12:11:03,869 | INFO | Thread-3 | V3M | Lap 1 completed in 129.352s
+2026-02-18 12:12:36,784 | INFO | Thread-3 | V3M | Lap 2 completed in 111.402s
+2026-02-18 12:14:35,857 | INFO | Thread-3 | V3M | Lap 3 completed in 111.396s
+2026-02-18 12:16:32,553 | INFO | Thread-3 | V3M | Lap 4 completed in 111.402s
+2026-02-18 12:18:06,694 | INFO | Thread-3 | V3M | Client connection closed / final braking command sent
+2026-02-18 12:18:06,694 | INFO | Thread-3 | V3M | Final lap time recorded: 111.390s
+2026-02-18 12:18:06,694 | INFO | Thread-3 | V3M | Server socket closed
+2026-02-18 12:18:06,694 | INFO | Thread-3 | V3M | Generating plots...
+2026-02-18 12:18:07,026 | WARNING | Thread-3 | V3M | Plot function plotTraj returned None
+2026-02-18 12:18:07,263 | WARNING | Thread-3 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-18 12:18:08,749 | WARNING | Thread-3 | V3M | Plot function plot_e_l_Values returned None
+2026-02-18 12:18:09,008 | WARNING | Thread-3 | V3M | Plot function plot_balance_Values returned None
+2026-02-18 12:18:09,381 | WARNING | Thread-3 | V3M | Plot function plot_Angles returned None
+2026-02-18 12:18:09,949 | WARNING | Thread-3 | V3M | Plot function plot_Torque returned None
+2026-02-18 12:18:10,340 | WARNING | Thread-3 | V3M | Plot function plot_TargetValues returned None
+2026-02-18 12:18:10,873 | WARNING | Thread-3 | V3M | Plot function plot_PedalValues returned None
+2026-02-18 12:18:11,132 | WARNING | Thread-3 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-18 12:18:11,468 | WARNING | Thread-3 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-18 12:18:11,593 | INFO | MainThread | V3M | Lap times exported to lap_times_export.csv
+2026-02-18 12:18:11,819 | WARNING | Thread-3 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-18 12:18:12,052 | WARNING | Thread-3 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-18 12:18:12,305 | WARNING | Thread-3 | V3M | Plot function plot_refDistances returned None
+2026-02-18 12:18:12,308 | INFO | Thread-3 | V3M | Plot generation complete: 0/13 figures created
+2026-02-18 12:18:12,308 | INFO | Thread-3 | V3M | Figures saved locally (count=0)
+2026-02-18 12:18:12,310 | INFO | Thread-3 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-18 12:18:12,382 | INFO | Thread-3 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-18 12:21:48,412 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-18 12:21:48,840 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-18 12:21:48,856 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-18 12:21:48,856 | INFO | Thread-4 | V3M | Simulation reset initiated
+2026-02-18 12:21:48,856 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-18 12:21:48,856 | INFO | Thread-4 | V3M | Simulation reset completed
+2026-02-18 12:21:48,856 | INFO | Thread-4 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-18 12:29:37,657 | INFO | MainThread | V3M | Application closing requested
+2026-02-18 12:29:37,657 | INFO | MainThread | V3M | Tkinter main loop quit
+2026-02-18 12:29:37,657 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-20 09:43:25,192 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2026-02-20 09:43:25,368 | INFO | MainThread | V3M | ConsoleApp initialized
+2026-02-20 09:43:25,391 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2026-02-20 09:45:02,923 | INFO | MainThread | V3M | Starting server task
+2026-02-20 09:45:02,923 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 09:45:02,927 | INFO | Thread-2 | V3M | Starting UDP server...
+2026-02-20 09:45:02,929 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 09:45:11,138 | INFO | Thread-2 | V3M | Client connected: ('127.0.0.1', 54017)
+2026-02-20 09:45:11,138 | INFO | Thread-2 | V3M | Server stopped.
+2026-02-20 09:45:11,138 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 09:45:12,497 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 09:45:12,497 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 09:45:12,497 | INFO | Thread-3 | V3M | Backend simulation loop starting
+2026-02-20 09:45:12,504 | INFO | Thread-3 | V3M | Validating track file selection
+2026-02-20 09:45:12,750 | INFO | Thread-3 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\TokyoS11_Run_5927.csv (rows=1491, cols=6)
+2026-02-20 09:45:12,755 | INFO | Thread-3 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\TokyoS11_Run_5927.csv (rows=1491)
+2026-02-20 09:45:12,758 | INFO | Thread-3 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 09:45:12,758 | INFO | Thread-3 | V3M | Waiting for client loop entered
+2026-02-20 09:45:12,871 | INFO | Thread-3 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=2523.06
+2026-02-20 09:46:08,819 | ERROR | Thread-3 | root | Unrealistic vehicle speed detected: vCar=11660.37 m/s; breaking simulation loop
+2026-02-20 09:46:08,819 | INFO | Thread-3 | V3M | Client connection closed / final braking command sent
+2026-02-20 09:46:08,836 | INFO | Thread-3 | V3M | Final lap time recorded: 81.844s
+2026-02-20 09:46:08,837 | INFO | Thread-3 | V3M | Server socket closed
+2026-02-20 09:46:08,837 | INFO | Thread-3 | V3M | Generating plots...
+2026-02-20 09:46:09,035 | WARNING | Thread-3 | V3M | Plot function plotTraj returned None
+2026-02-20 09:46:09,237 | WARNING | Thread-3 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 09:46:09,868 | WARNING | Thread-3 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 09:46:10,102 | WARNING | Thread-3 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 09:46:10,319 | WARNING | Thread-3 | V3M | Plot function plot_Angles returned None
+2026-02-20 09:46:10,586 | WARNING | Thread-3 | V3M | Plot function plot_Torque returned None
+2026-02-20 09:46:10,819 | WARNING | Thread-3 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 09:46:11,035 | WARNING | Thread-3 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 09:46:11,253 | WARNING | Thread-3 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 09:46:11,486 | WARNING | Thread-3 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 09:46:11,749 | WARNING | Thread-3 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 09:46:11,952 | WARNING | Thread-3 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 09:46:12,169 | WARNING | Thread-3 | V3M | Plot function plot_refDistances returned None
+2026-02-20 09:46:12,169 | INFO | Thread-3 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 09:46:12,169 | INFO | Thread-3 | V3M | Figures saved locally (count=0)
+2026-02-20 09:46:12,169 | INFO | Thread-3 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 09:46:12,169 | INFO | Thread-3 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 09:46:25,620 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 09:46:26,219 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:26,219 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:26,219 | INFO | Thread-4 | V3M | Simulation reset initiated
+2026-02-20 09:46:26,219 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:26,219 | INFO | Thread-4 | V3M | Simulation reset completed
+2026-02-20 09:46:26,219 | INFO | Thread-4 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:27,318 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:27,319 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:27,319 | INFO | Thread-5 | V3M | Simulation reset initiated
+2026-02-20 09:46:27,319 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:27,319 | INFO | Thread-5 | V3M | Simulation reset completed
+2026-02-20 09:46:27,319 | INFO | Thread-5 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:27,469 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:27,469 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:27,469 | INFO | Thread-6 | V3M | Simulation reset initiated
+2026-02-20 09:46:27,469 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:27,485 | INFO | Thread-6 | V3M | Simulation reset completed
+2026-02-20 09:46:27,485 | INFO | Thread-6 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:31,769 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:31,769 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:31,769 | INFO | Thread-7 | V3M | Simulation reset initiated
+2026-02-20 09:46:31,769 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:31,769 | INFO | Thread-7 | V3M | Simulation reset completed
+2026-02-20 09:46:31,769 | INFO | Thread-7 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,052 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:32,052 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:32,052 | INFO | Thread-8 | V3M | Simulation reset initiated
+2026-02-20 09:46:32,052 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,052 | INFO | Thread-8 | V3M | Simulation reset completed
+2026-02-20 09:46:32,052 | INFO | Thread-8 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,204 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:32,204 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:32,204 | INFO | Thread-9 | V3M | Simulation reset initiated
+2026-02-20 09:46:32,204 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,218 | INFO | Thread-9 | V3M | Simulation reset completed
+2026-02-20 09:46:32,218 | INFO | Thread-9 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,336 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:46:32,348 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:46:32,351 | INFO | Thread-10 | V3M | Simulation reset initiated
+2026-02-20 09:46:32,351 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:46:32,352 | INFO | Thread-10 | V3M | Simulation reset completed
+2026-02-20 09:46:32,352 | INFO | Thread-10 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:47:12,050 | INFO | MainThread | V3M | Starting server task
+2026-02-20 09:47:12,050 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 09:47:12,050 | INFO | Thread-11 | V3M | Starting UDP server...
+2026-02-20 09:47:12,050 | INFO | Thread-11 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 09:47:15,216 | INFO | Thread-11 | V3M | Client connected: ('127.0.0.1', 63102)
+2026-02-20 09:47:15,216 | INFO | Thread-11 | V3M | Server stopped.
+2026-02-20 09:47:15,216 | INFO | Thread-11 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 09:47:19,918 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 09:47:19,918 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 09:47:19,918 | INFO | Thread-12 | V3M | Backend simulation loop starting
+2026-02-20 09:47:19,932 | INFO | Thread-12 | V3M | Validating track file selection
+2026-02-20 09:47:20,150 | INFO | Thread-12 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\TokyoS11_Run_5848.csv (rows=1678, cols=9)
+2026-02-20 09:47:20,150 | INFO | Thread-12 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\TokyoS11_Run_5848.csv (rows=1678)
+2026-02-20 09:47:20,166 | INFO | Thread-12 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 09:47:20,166 | INFO | Thread-12 | V3M | Waiting for client loop entered
+2026-02-20 09:47:20,266 | INFO | Thread-12 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=2518.89
+2026-02-20 09:48:33,614 | INFO | Thread-12 | V3M | Lap 1 completed in 105.574s
+2026-02-20 09:49:37,844 | INFO | Thread-12 | V3M | Lap 2 completed in 90.600s
+2026-02-20 09:50:38,095 | INFO | Thread-12 | V3M | Lap 3 completed in 90.600s
+2026-02-20 09:51:34,778 | INFO | Thread-12 | V3M | Lap 4 completed in 90.600s
+2026-02-20 09:52:30,405 | INFO | Thread-12 | V3M | Lap 5 completed in 90.600s
+2026-02-20 09:53:17,326 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 09:53:17,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,343 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,343 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,343 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,374 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,375 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,380 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,380 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,380 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,393 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,393 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,393 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,393 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,393 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,475 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,480 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,480 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,480 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,508 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,511 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,511 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,511 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,524 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,544 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,544 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,544 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,544 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,560 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,560 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,560 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,560 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,577 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,581 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,581 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,581 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,591 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,593 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,593 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,593 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,610 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,613 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,616 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,620 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,623 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,626 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,626 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,626 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,626 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,658 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,676 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,681 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,681 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,681 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,691 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,724 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,741 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,776 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,781 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,781 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,781 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,825 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,881 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,881 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,891 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,908 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,975 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,981 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,981 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,981 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,991 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,991 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,991 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:17,991 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,027 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,027 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,027 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,027 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,058 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,075 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,081 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,081 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,081 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,142 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,142 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,142 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,142 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,158 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,176 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,176 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,182 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,182 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,191 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,192 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,192 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,192 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,192 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,240 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,258 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,277 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,277 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,282 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,282 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,326 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,375 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,375 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,382 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,382 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,382 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,476 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,476 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,482 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,482 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,482 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,524 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,527 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,542 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,542 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,542 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,542 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,542 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,559 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,559 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,559 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,559 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,575 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,582 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,582 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,582 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,609 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,609 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,609 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,609 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,642 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,659 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,676 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,676 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,682 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,682 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,682 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,708 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,724 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,742 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,758 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,775 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,778 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,782 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,782 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,792 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,841 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,842 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,882 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,882 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,893 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,893 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,893 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,893 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,925 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,925 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,925 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,939 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,958 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,958 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,958 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,958 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,973 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,975 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,983 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,983 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,990 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:18,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,009 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,026 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,028 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,028 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,028 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,074 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,075 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,082 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,082 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,082 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,124 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,126 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,126 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,126 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,126 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,160 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,160 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,160 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,160 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,174 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,177 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,183 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,183 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,183 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,195 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,199 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,203 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,206 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,209 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,225 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,242 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,259 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,275 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,279 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,283 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,283 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,283 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,292 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,309 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,325 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,325 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,325 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,325 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,342 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,359 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,375 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,375 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,383 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,383 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,392 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,409 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,425 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,441 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,442 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,459 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,476 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,483 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,483 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,491 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,492 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,509 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,525 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,530 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,530 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,530 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,541 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,541 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,541 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,541 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,541 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,558 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,558 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:53:19,558 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:53:19,558 | INFO | Thread-13 | V3M | Simulation reset initiated
+2026-02-20 09:53:19,558 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:53:19,558 | INFO | Thread-13 | V3M | Simulation reset completed
+2026-02-20 09:53:19,558 | INFO | Thread-13 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:53:19,583 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,592 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,608 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,608 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,608 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,625 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,630 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,634 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,637 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,641 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,657 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,658 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,658 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,658 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,658 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,675 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,675 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,683 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,683 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,683 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,692 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,709 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,725 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,741 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,743 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,743 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,743 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,743 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,759 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,759 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,759 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,759 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,759 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,775 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,780 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,780 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,784 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,784 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,791 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,793 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,793 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,793 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,793 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,809 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,826 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,843 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,847 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,850 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,853 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,857 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,859 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,874 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,876 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,884 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,884 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,891 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,892 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,909 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,924 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,926 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,941 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,942 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,958 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,959 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,975 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,975 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,984 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,984 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:19,992 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,008 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,008 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,008 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,008 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,008 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,025 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,025 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,030 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,030 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,030 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,042 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,059 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,075 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,075 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,084 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,084 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,092 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,109 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,125 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,143 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,159 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,176 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,176 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,176 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,184 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,184 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,191 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,192 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:53:20,192 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:53:20,192 | INFO | Thread-14 | V3M | Simulation reset initiated
+2026-02-20 09:53:20,192 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:53:20,192 | INFO | Thread-12 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 09:53:20,192 | INFO | Thread-14 | V3M | Simulation reset completed
+2026-02-20 09:53:20,192 | INFO | Thread-14 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:53:20,192 | WARNING | Thread-12 | V3M | Abort flag detected during simulation loop; breaking
+2026-02-20 09:53:20,192 | INFO | Thread-12 | V3M | Client connection closed / final braking command sent
+2026-02-20 09:53:20,209 | INFO | Thread-12 | V3M | Final lap time recorded: 79.152s
+2026-02-20 09:53:20,209 | INFO | Thread-12 | V3M | Server socket closed
+2026-02-20 09:53:20,209 | INFO | Thread-12 | V3M | Generating plots...
+2026-02-20 09:53:20,392 | WARNING | Thread-12 | V3M | Plot function plotTraj returned None
+2026-02-20 09:53:20,641 | WARNING | Thread-12 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 09:53:21,892 | WARNING | Thread-12 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 09:53:22,143 | WARNING | Thread-12 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 09:53:22,475 | WARNING | Thread-12 | V3M | Plot function plot_Angles returned None
+2026-02-20 09:53:23,142 | WARNING | Thread-12 | V3M | Plot function plot_Torque returned None
+2026-02-20 09:53:23,859 | WARNING | Thread-12 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 09:53:24,143 | WARNING | Thread-12 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 09:53:24,393 | WARNING | Thread-12 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 09:53:24,742 | WARNING | Thread-12 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 09:53:25,094 | WARNING | Thread-12 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 09:53:25,325 | WARNING | Thread-12 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 09:53:25,557 | WARNING | Thread-12 | V3M | Plot function plot_refDistances returned None
+2026-02-20 09:53:25,557 | INFO | Thread-12 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 09:53:25,559 | INFO | Thread-12 | V3M | Figures saved locally (count=0)
+2026-02-20 09:53:25,559 | INFO | Thread-12 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 09:53:25,626 | INFO | Thread-12 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 09:53:51,026 | INFO | MainThread | V3M | Starting server task
+2026-02-20 09:53:51,026 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 09:53:51,026 | INFO | Thread-15 | V3M | Starting UDP server...
+2026-02-20 09:53:51,026 | INFO | Thread-15 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 09:53:53,594 | INFO | Thread-15 | V3M | Client connected: ('127.0.0.1', 61690)
+2026-02-20 09:53:53,594 | INFO | Thread-15 | V3M | Server stopped.
+2026-02-20 09:53:53,594 | INFO | Thread-15 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 09:53:56,474 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 09:53:56,476 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 09:53:56,476 | INFO | Thread-16 | V3M | Backend simulation loop starting
+2026-02-20 09:53:56,476 | INFO | Thread-16 | V3M | Validating track file selection
+2026-02-20 09:53:56,491 | INFO | Thread-16 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 09:53:56,491 | INFO | Thread-16 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 09:53:56,509 | INFO | Thread-16 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 09:53:56,509 | INFO | Thread-16 | V3M | Waiting for client loop entered
+2026-02-20 09:53:56,607 | INFO | Thread-16 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 09:54:30,174 | ERROR | Thread-16 | root | Unrealistic vehicle speed detected: vCar=1504.13 m/s; breaking simulation loop
+2026-02-20 09:54:30,174 | INFO | Thread-16 | V3M | Client connection closed / final braking command sent
+2026-02-20 09:54:30,178 | INFO | Thread-16 | V3M | Final lap time recorded: 58.216s
+2026-02-20 09:54:30,178 | INFO | Thread-16 | V3M | Server socket closed
+2026-02-20 09:54:30,178 | INFO | Thread-16 | V3M | Generating plots...
+2026-02-20 09:54:30,341 | WARNING | Thread-16 | V3M | Plot function plotTraj returned None
+2026-02-20 09:54:30,524 | WARNING | Thread-16 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 09:54:31,074 | WARNING | Thread-16 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 09:54:31,290 | WARNING | Thread-16 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 09:54:31,491 | WARNING | Thread-16 | V3M | Plot function plot_Angles returned None
+2026-02-20 09:54:31,724 | WARNING | Thread-16 | V3M | Plot function plot_Torque returned None
+2026-02-20 09:54:31,941 | WARNING | Thread-16 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 09:54:32,156 | WARNING | Thread-16 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 09:54:32,374 | WARNING | Thread-16 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 09:54:32,574 | WARNING | Thread-16 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 09:54:32,857 | WARNING | Thread-16 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 09:54:33,041 | WARNING | Thread-16 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 09:54:33,241 | WARNING | Thread-16 | V3M | Plot function plot_refDistances returned None
+2026-02-20 09:54:33,241 | INFO | Thread-16 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 09:54:33,241 | INFO | Thread-16 | V3M | Figures saved locally (count=0)
+2026-02-20 09:54:33,241 | INFO | Thread-16 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 09:54:33,241 | INFO | Thread-16 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 09:54:43,890 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 09:54:44,758 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:54:44,774 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:54:44,774 | INFO | Thread-17 | V3M | Simulation reset initiated
+2026-02-20 09:54:44,774 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:44,774 | INFO | Thread-17 | V3M | Simulation reset completed
+2026-02-20 09:54:44,774 | INFO | Thread-17 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,641 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:54:45,655 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:54:45,657 | INFO | Thread-18 | V3M | Simulation reset initiated
+2026-02-20 09:54:45,657 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,657 | INFO | Thread-18 | V3M | Simulation reset completed
+2026-02-20 09:54:45,657 | INFO | Thread-18 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,839 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:54:45,841 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:54:45,841 | INFO | Thread-19 | V3M | Simulation reset initiated
+2026-02-20 09:54:45,841 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,841 | INFO | Thread-19 | V3M | Simulation reset completed
+2026-02-20 09:54:45,841 | INFO | Thread-19 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,974 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:54:45,974 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:54:45,974 | INFO | Thread-20 | V3M | Simulation reset initiated
+2026-02-20 09:54:45,974 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:45,974 | INFO | Thread-20 | V3M | Simulation reset completed
+2026-02-20 09:54:45,974 | INFO | Thread-20 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:46,142 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:54:46,142 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:54:46,142 | INFO | Thread-21 | V3M | Simulation reset initiated
+2026-02-20 09:54:46,142 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:46,157 | INFO | Thread-21 | V3M | Simulation reset completed
+2026-02-20 09:54:46,157 | INFO | Thread-21 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:54:55,724 | INFO | MainThread | V3M | Starting server task
+2026-02-20 09:54:55,724 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 09:54:55,724 | INFO | Thread-22 | V3M | Starting UDP server...
+2026-02-20 09:54:55,724 | INFO | Thread-22 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 09:55:10,440 | INFO | Thread-22 | V3M | Client connected: ('127.0.0.1', 61534)
+2026-02-20 09:55:10,440 | INFO | Thread-22 | V3M | Server stopped.
+2026-02-20 09:55:10,440 | INFO | Thread-22 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 09:55:12,191 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 09:55:12,191 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 09:55:12,205 | INFO | Thread-23 | V3M | Backend simulation loop starting
+2026-02-20 09:55:12,207 | INFO | Thread-23 | V3M | Validating track file selection
+2026-02-20 09:55:12,223 | INFO | Thread-23 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 09:55:12,223 | INFO | Thread-23 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 09:55:12,240 | INFO | Thread-23 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 09:55:12,240 | INFO | Thread-23 | V3M | Waiting for client loop entered
+2026-02-20 09:55:12,342 | INFO | Thread-23 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 09:55:42,389 | ERROR | Thread-23 | root | Unrealistic vehicle speed detected: vCar=135744.15 m/s; breaking simulation loop
+2026-02-20 09:55:42,389 | INFO | Thread-23 | V3M | Client connection closed / final braking command sent
+2026-02-20 09:55:42,389 | INFO | Thread-23 | V3M | Final lap time recorded: 50.722s
+2026-02-20 09:55:42,389 | INFO | Thread-23 | V3M | Server socket closed
+2026-02-20 09:55:42,389 | INFO | Thread-23 | V3M | Generating plots...
+2026-02-20 09:55:42,572 | WARNING | Thread-23 | V3M | Plot function plotTraj returned None
+2026-02-20 09:55:42,756 | WARNING | Thread-23 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 09:55:43,273 | WARNING | Thread-23 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 09:55:43,461 | WARNING | Thread-23 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 09:55:43,661 | WARNING | Thread-23 | V3M | Plot function plot_Angles returned None
+2026-02-20 09:55:43,889 | WARNING | Thread-23 | V3M | Plot function plot_Torque returned None
+2026-02-20 09:55:44,095 | WARNING | Thread-23 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 09:55:44,295 | WARNING | Thread-23 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 09:55:44,573 | WARNING | Thread-23 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 09:55:44,775 | WARNING | Thread-23 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 09:55:44,955 | WARNING | Thread-23 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 09:55:45,139 | WARNING | Thread-23 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 09:55:45,339 | WARNING | Thread-23 | V3M | Plot function plot_refDistances returned None
+2026-02-20 09:55:45,339 | INFO | Thread-23 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 09:55:45,339 | INFO | Thread-23 | V3M | Figures saved locally (count=0)
+2026-02-20 09:55:45,339 | INFO | Thread-23 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 09:55:45,355 | INFO | Thread-23 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 09:55:51,223 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 09:55:52,438 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:55:52,440 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:55:52,440 | INFO | Thread-24 | V3M | Simulation reset initiated
+2026-02-20 09:55:52,440 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:55:52,440 | INFO | Thread-24 | V3M | Simulation reset completed
+2026-02-20 09:55:52,440 | INFO | Thread-24 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:57:42,870 | INFO | MainThread | V3M | Starting server task
+2026-02-20 09:57:42,870 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 09:57:42,870 | INFO | Thread-25 | V3M | Starting UDP server...
+2026-02-20 09:57:42,870 | INFO | Thread-25 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 09:57:55,584 | INFO | Thread-25 | V3M | Client connected: ('127.0.0.1', 56525)
+2026-02-20 09:57:55,584 | INFO | Thread-25 | V3M | Server stopped.
+2026-02-20 09:57:55,584 | INFO | Thread-25 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 09:57:56,902 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 09:57:56,902 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 09:57:56,902 | INFO | Thread-26 | V3M | Backend simulation loop starting
+2026-02-20 09:57:56,918 | INFO | Thread-26 | V3M | Validating track file selection
+2026-02-20 09:57:56,934 | INFO | Thread-26 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 09:57:56,934 | INFO | Thread-26 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 09:57:56,934 | INFO | Thread-26 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 09:57:56,934 | INFO | Thread-26 | V3M | Waiting for client loop entered
+2026-02-20 09:57:57,051 | INFO | Thread-26 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 09:58:29,951 | ERROR | Thread-26 | root | Unrealistic vehicle speed detected: vCar=120628.99 m/s; breaking simulation loop
+2026-02-20 09:58:29,951 | INFO | Thread-26 | V3M | Client connection closed / final braking command sent
+2026-02-20 09:58:29,951 | INFO | Thread-26 | V3M | Final lap time recorded: 54.238s
+2026-02-20 09:58:29,951 | INFO | Thread-26 | V3M | Server socket closed
+2026-02-20 09:58:29,951 | INFO | Thread-26 | V3M | Generating plots...
+2026-02-20 09:58:30,132 | WARNING | Thread-26 | V3M | Plot function plotTraj returned None
+2026-02-20 09:58:30,316 | WARNING | Thread-26 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 09:58:30,851 | WARNING | Thread-26 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 09:58:31,050 | WARNING | Thread-26 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 09:58:31,250 | WARNING | Thread-26 | V3M | Plot function plot_Angles returned None
+2026-02-20 09:58:31,483 | WARNING | Thread-26 | V3M | Plot function plot_Torque returned None
+2026-02-20 09:58:31,700 | WARNING | Thread-26 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 09:58:31,900 | WARNING | Thread-26 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 09:58:32,100 | WARNING | Thread-26 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 09:58:32,316 | WARNING | Thread-26 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 09:58:32,616 | WARNING | Thread-26 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 09:58:32,818 | WARNING | Thread-26 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 09:58:33,016 | WARNING | Thread-26 | V3M | Plot function plot_refDistances returned None
+2026-02-20 09:58:33,016 | INFO | Thread-26 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 09:58:33,016 | INFO | Thread-26 | V3M | Figures saved locally (count=0)
+2026-02-20 09:58:33,016 | INFO | Thread-26 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 09:58:33,016 | INFO | Thread-26 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 09:58:46,416 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 09:58:47,139 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:58:47,148 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:58:47,149 | INFO | Thread-27 | V3M | Simulation reset initiated
+2026-02-20 09:58:47,149 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:47,149 | INFO | Thread-27 | V3M | Simulation reset completed
+2026-02-20 09:58:47,149 | INFO | Thread-27 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,066 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:58:48,066 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:58:48,066 | INFO | Thread-28 | V3M | Simulation reset initiated
+2026-02-20 09:58:48,066 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,066 | INFO | Thread-28 | V3M | Simulation reset completed
+2026-02-20 09:58:48,066 | INFO | Thread-28 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,222 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:58:48,224 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:58:48,224 | INFO | Thread-29 | V3M | Simulation reset initiated
+2026-02-20 09:58:48,224 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,232 | INFO | Thread-29 | V3M | Simulation reset completed
+2026-02-20 09:58:48,232 | INFO | Thread-29 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,350 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 09:58:48,350 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 09:58:48,350 | INFO | Thread-30 | V3M | Simulation reset initiated
+2026-02-20 09:58:48,350 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 09:58:48,350 | INFO | Thread-30 | V3M | Simulation reset completed
+2026-02-20 09:58:48,350 | INFO | Thread-30 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 10:03:53,738 | INFO | MainThread | V3M | Starting server task
+2026-02-20 10:03:53,738 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 10:03:53,738 | INFO | Thread-31 | V3M | Starting UDP server...
+2026-02-20 10:03:53,738 | INFO | Thread-31 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 10:03:56,072 | INFO | Thread-31 | V3M | Client connected: ('127.0.0.1', 55258)
+2026-02-20 10:03:56,072 | INFO | Thread-31 | V3M | Server stopped.
+2026-02-20 10:03:56,072 | INFO | Thread-31 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 10:03:56,906 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 10:03:56,922 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 10:03:56,922 | INFO | Thread-32 | V3M | Backend simulation loop starting
+2026-02-20 10:03:56,939 | INFO | Thread-32 | V3M | Validating track file selection
+2026-02-20 10:03:56,939 | INFO | Thread-32 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 10:03:56,955 | INFO | Thread-32 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 10:03:56,955 | INFO | Thread-32 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 10:03:56,955 | INFO | Thread-32 | V3M | Waiting for client loop entered
+2026-02-20 10:03:57,055 | INFO | Thread-32 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 10:04:35,886 | ERROR | Thread-32 | root | Unrealistic vehicle speed detected: vCar=1006049510293872705536.00 m/s; breaking simulation loop
+2026-02-20 10:04:35,886 | INFO | Thread-32 | V3M | Client connection closed / final braking command sent
+2026-02-20 10:04:35,886 | INFO | Thread-32 | V3M | Final lap time recorded: 63.472s
+2026-02-20 10:04:35,886 | INFO | Thread-32 | V3M | Server socket closed
+2026-02-20 10:04:35,886 | INFO | Thread-32 | V3M | Generating plots...
+2026-02-20 10:04:36,059 | WARNING | Thread-32 | V3M | Plot function plotTraj returned None
+2026-02-20 10:04:36,137 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 10:04:36,259 | WARNING | Thread-32 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 10:04:36,660 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 10:04:36,669 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 10:04:36,669 | INFO | Thread-33 | V3M | Simulation reset initiated
+2026-02-20 10:04:36,669 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 10:04:36,686 | INFO | Thread-33 | V3M | Simulation reset completed
+2026-02-20 10:04:36,686 | INFO | Thread-33 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 10:04:36,820 | WARNING | Thread-32 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 10:04:37,020 | WARNING | Thread-32 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 10:04:37,220 | WARNING | Thread-32 | V3M | Plot function plot_Angles returned None
+2026-02-20 10:04:37,453 | WARNING | Thread-32 | V3M | Plot function plot_Torque returned None
+2026-02-20 10:04:37,668 | WARNING | Thread-32 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 10:04:37,870 | WARNING | Thread-32 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 10:04:38,069 | WARNING | Thread-32 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 10:04:38,269 | WARNING | Thread-32 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 10:04:38,469 | WARNING | Thread-32 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 10:04:38,670 | WARNING | Thread-32 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 10:04:38,863 | WARNING | Thread-32 | V3M | Plot function plot_refDistances returned None
+2026-02-20 10:04:38,864 | INFO | Thread-32 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 10:04:38,864 | INFO | Thread-32 | V3M | Figures saved locally (count=0)
+2026-02-20 10:04:38,864 | INFO | Thread-32 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 10:04:38,869 | INFO | Thread-32 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 10:08:40,665 | INFO | MainThread | V3M | Starting server task
+2026-02-20 10:08:40,665 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 10:08:40,665 | INFO | Thread-34 | V3M | Starting UDP server...
+2026-02-20 10:08:40,665 | INFO | Thread-34 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 10:08:42,909 | INFO | Thread-34 | V3M | Client connected: ('127.0.0.1', 60062)
+2026-02-20 10:08:42,912 | INFO | Thread-34 | V3M | Server stopped.
+2026-02-20 10:08:42,913 | INFO | Thread-34 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 10:08:48,649 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 10:08:48,649 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 10:08:48,649 | INFO | Thread-35 | V3M | Backend simulation loop starting
+2026-02-20 10:08:48,658 | INFO | Thread-35 | V3M | Validating track file selection
+2026-02-20 10:08:48,663 | INFO | Thread-35 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 10:08:48,680 | INFO | Thread-35 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 10:08:48,680 | INFO | Thread-35 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 10:08:48,680 | INFO | Thread-35 | V3M | Waiting for client loop entered
+2026-02-20 10:08:48,790 | INFO | Thread-35 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 10:09:28,328 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 10:09:28,328 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,328 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,346 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,346 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,346 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,346 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,362 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,362 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,368 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,368 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,378 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,378 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,378 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,378 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,378 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,395 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,395 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,395 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,395 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,395 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,411 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,411 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,411 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,411 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,429 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,429 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,429 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,429 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,429 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,445 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,445 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,445 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,445 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,460 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,464 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,469 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,469 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,478 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,479 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,479 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,479 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,479 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,495 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,495 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,495 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,495 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,495 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,512 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,512 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,512 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,512 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,527 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,528 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,528 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,528 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,545 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,545 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,545 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,562 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,562 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,569 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,569 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,569 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,578 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,578 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,578 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,578 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,595 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,595 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,595 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,595 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,595 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,612 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,612 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,612 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,612 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,612 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,629 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,634 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,634 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,634 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,634 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,645 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,645 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,645 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,645 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,645 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,662 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,669 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,669 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,669 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-20 10:09:28,678 | ERROR | Thread-35 | root | Unrealistic vehicle speed detected: vCar=1092698.72 m/s; breaking simulation loop
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Client connection closed / final braking command sent
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Final lap time recorded: 63.616s
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Server socket closed
+2026-02-20 10:09:28,678 | INFO | Thread-35 | V3M | Generating plots...
+2026-02-20 10:09:28,846 | WARNING | Thread-35 | V3M | Plot function plotTraj returned None
+2026-02-20 10:09:28,980 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 10:09:28,996 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 10:09:28,996 | INFO | Thread-36 | V3M | Simulation reset initiated
+2026-02-20 10:09:28,996 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 10:09:29,011 | INFO | Thread-36 | V3M | Simulation reset completed
+2026-02-20 10:09:29,012 | INFO | Thread-36 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 10:09:29,046 | WARNING | Thread-35 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 10:09:29,611 | WARNING | Thread-35 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 10:09:29,812 | WARNING | Thread-35 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 10:09:30,011 | WARNING | Thread-35 | V3M | Plot function plot_Angles returned None
+2026-02-20 10:09:30,244 | WARNING | Thread-35 | V3M | Plot function plot_Torque returned None
+2026-02-20 10:09:30,445 | WARNING | Thread-35 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 10:09:30,645 | WARNING | Thread-35 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 10:09:30,845 | WARNING | Thread-35 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 10:09:31,049 | WARNING | Thread-35 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 10:09:31,228 | WARNING | Thread-35 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 10:09:31,412 | WARNING | Thread-35 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 10:09:31,612 | WARNING | Thread-35 | V3M | Plot function plot_refDistances returned None
+2026-02-20 10:09:31,612 | INFO | Thread-35 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 10:09:31,612 | INFO | Thread-35 | V3M | Figures saved locally (count=0)
+2026-02-20 10:09:31,612 | INFO | Thread-35 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 10:09:31,612 | INFO | Thread-35 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 11:32:11,483 | INFO | MainThread | V3M | Starting server task
+2026-02-20 11:32:11,489 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-20 11:32:11,493 | INFO | Thread-37 | V3M | Starting UDP server...
+2026-02-20 11:32:11,499 | INFO | Thread-37 | V3M | Server bound to 127.0.0.1:6020
+2026-02-20 11:32:18,514 | INFO | Thread-37 | V3M | Client connected: ('127.0.0.1', 63129)
+2026-02-20 11:32:18,514 | INFO | Thread-37 | V3M | Server stopped.
+2026-02-20 11:32:18,514 | INFO | Thread-37 | V3M | BackgroundTask stop requested: run_server
+2026-02-20 11:32:21,483 | INFO | MainThread | V3M | Simulation starting...
+2026-02-20 11:32:21,483 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-20 11:32:21,483 | INFO | Thread-38 | V3M | Backend simulation loop starting
+2026-02-20 11:32:21,498 | INFO | Thread-38 | V3M | Validating track file selection
+2026-02-20 11:32:21,532 | INFO | Thread-38 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-20 11:32:21,532 | INFO | Thread-38 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-20 11:32:21,547 | INFO | Thread-38 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-20 11:32:21,547 | INFO | Thread-38 | V3M | Waiting for client loop entered
+2026-02-20 11:32:21,665 | INFO | Thread-38 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-20 11:33:14,013 | ERROR | Thread-38 | root | Unrealistic vehicle speed detected: vCar=11383861.73 m/s; breaking simulation loop
+2026-02-20 11:33:14,013 | INFO | Thread-38 | V3M | Client connection closed / final braking command sent
+2026-02-20 11:33:14,013 | INFO | Thread-38 | V3M | Final lap time recorded: 65.908s
+2026-02-20 11:33:14,013 | INFO | Thread-38 | V3M | Server socket closed
+2026-02-20 11:33:14,013 | INFO | Thread-38 | V3M | Generating plots...
+2026-02-20 11:33:14,230 | WARNING | Thread-38 | V3M | Plot function plotTraj returned None
+2026-02-20 11:33:14,418 | WARNING | Thread-38 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-20 11:33:15,172 | WARNING | Thread-38 | V3M | Plot function plot_e_l_Values returned None
+2026-02-20 11:33:15,364 | WARNING | Thread-38 | V3M | Plot function plot_balance_Values returned None
+2026-02-20 11:33:15,563 | WARNING | Thread-38 | V3M | Plot function plot_Angles returned None
+2026-02-20 11:33:15,779 | WARNING | Thread-38 | V3M | Plot function plot_Torque returned None
+2026-02-20 11:33:15,997 | WARNING | Thread-38 | V3M | Plot function plot_TargetValues returned None
+2026-02-20 11:33:16,196 | WARNING | Thread-38 | V3M | Plot function plot_PedalValues returned None
+2026-02-20 11:33:16,387 | WARNING | Thread-38 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-20 11:33:16,596 | WARNING | Thread-38 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-20 11:33:16,796 | WARNING | Thread-38 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-20 11:33:16,984 | WARNING | Thread-38 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-20 11:33:17,163 | WARNING | Thread-38 | V3M | Plot function plot_refDistances returned None
+2026-02-20 11:33:17,163 | INFO | Thread-38 | V3M | Plot generation complete: 0/13 figures created
+2026-02-20 11:33:17,163 | INFO | Thread-38 | V3M | Figures saved locally (count=0)
+2026-02-20 11:33:17,163 | INFO | Thread-38 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-20 11:33:17,178 | INFO | Thread-38 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-20 11:34:05,678 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-20 11:34:07,677 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-20 11:34:07,694 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-20 11:34:07,694 | INFO | Thread-39 | V3M | Simulation reset initiated
+2026-02-20 11:34:07,694 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 11:34:07,694 | INFO | Thread-39 | V3M | Simulation reset completed
+2026-02-20 11:34:07,694 | INFO | Thread-39 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-20 11:34:08,710 | INFO | MainThread | V3M | Application closing requested
+2026-02-20 11:34:08,710 | INFO | MainThread | V3M | Tkinter main loop quit
+2026-02-20 11:34:08,710 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-23 08:07:45,520 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2026-02-23 08:07:45,949 | INFO | MainThread | V3M | ConsoleApp initialized
+2026-02-23 08:07:45,981 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2026-02-23 08:08:18,981 | INFO | MainThread | V3M | Starting server task
+2026-02-23 08:08:18,981 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-23 08:08:18,981 | INFO | Thread-2 | V3M | Starting UDP server...
+2026-02-23 08:08:18,998 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2026-02-23 08:08:34,489 | INFO | Thread-2 | V3M | Client connected: ('127.0.0.1', 62509)
+2026-02-23 08:08:34,513 | INFO | Thread-2 | V3M | Server stopped.
+2026-02-23 08:08:34,526 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2026-02-23 08:08:46,536 | INFO | MainThread | V3M | Simulation starting...
+2026-02-23 08:08:46,568 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-23 08:08:46,634 | INFO | Thread-3 | V3M | Backend simulation loop starting
+2026-02-23 08:08:46,694 | INFO | Thread-3 | V3M | Validating track file selection
+2026-02-23 08:08:46,715 | INFO | Thread-3 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-23 08:08:46,728 | INFO | Thread-3 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-23 08:08:46,737 | INFO | Thread-3 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-23 08:08:46,741 | INFO | Thread-3 | V3M | Waiting for client loop entered
+2026-02-23 08:08:46,999 | INFO | Thread-3 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-23 08:11:21,066 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-23 08:11:21,075 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,086 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,099 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,108 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,114 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,126 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,133 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,143 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,151 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,157 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,258 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,271 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,280 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,294 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,301 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,309 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,318 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,328 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,336 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,395 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,436 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,451 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,466 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,478 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,489 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,500 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,508 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,516 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,525 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,532 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,540 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,546 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,639 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,659 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:21,672 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:21,677 | INFO | Thread-4 | V3M | Simulation reset initiated
+2026-02-23 08:11:21,677 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:21,681 | INFO | Thread-4 | V3M | Simulation reset completed
+2026-02-23 08:11:21,682 | INFO | Thread-4 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:21,730 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,749 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,757 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,764 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,776 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,784 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,792 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,803 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,815 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,909 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,918 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,931 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,939 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,947 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,952 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,961 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,967 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,975 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,982 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,989 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:21,997 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,003 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,012 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,018 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,027 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,125 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,162 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,178 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,188 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,197 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,207 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,216 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,229 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,238 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,245 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,251 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,259 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,266 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,274 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,280 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,287 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,294 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,394 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,408 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,422 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,429 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,436 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,444 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,452 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,459 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,464 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,471 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,481 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,488 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,496 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,506 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,512 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,520 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,531 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,540 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,643 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,672 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,680 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,690 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,701 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,712 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,721 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,728 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,736 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,742 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,773 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,858 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,876 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,900 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,917 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,928 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,936 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,946 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,952 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,960 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,967 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,974 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,982 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:22,990 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,093 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,111 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:23,116 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:23,118 | INFO | Thread-5 | V3M | Simulation reset initiated
+2026-02-23 08:11:23,118 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:23,120 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,120 | INFO | Thread-5 | V3M | Simulation reset completed
+2026-02-23 08:11:23,121 | INFO | Thread-5 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:23,141 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,148 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,156 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,163 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,169 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,264 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,293 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,306 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,314 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,320 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,333 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,351 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,361 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,366 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,372 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,381 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,386 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,394 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,402 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,406 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,513 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,532 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,549 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,561 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,571 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,582 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,588 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,595 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,605 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,615 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,624 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,630 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,636 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,644 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,652 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,674 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:23,685 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:23,701 | INFO | Thread-6 | V3M | Simulation reset initiated
+2026-02-23 08:11:23,701 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:23,743 | INFO | Thread-6 | V3M | Simulation reset completed
+2026-02-23 08:11:23,750 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,751 | INFO | Thread-6 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:23,768 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,780 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,792 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,806 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,818 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,829 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,836 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,845 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,850 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:23,868 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:23,958 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:23,974 | INFO | Thread-7 | V3M | Simulation reset initiated
+2026-02-23 08:11:23,974 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:23,994 | INFO | Thread-7 | V3M | Simulation reset completed
+2026-02-23 08:11:24,001 | INFO | Thread-7 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,012 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,020 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,038 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,047 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,058 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,069 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,078 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,087 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,100 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,107 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,115 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,123 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,174 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:24,191 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:24,227 | INFO | Thread-8 | V3M | Simulation reset initiated
+2026-02-23 08:11:24,227 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,232 | INFO | Thread-8 | V3M | Simulation reset completed
+2026-02-23 08:11:24,232 | INFO | Thread-8 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,259 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,270 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,284 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,290 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,299 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,308 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,314 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,323 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,329 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,339 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,442 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,460 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,468 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,481 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,487 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,496 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,500 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:24,504 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:24,506 | INFO | Thread-9 | V3M | Simulation reset initiated
+2026-02-23 08:11:24,506 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,520 | INFO | Thread-9 | V3M | Simulation reset completed
+2026-02-23 08:11:24,520 | INFO | Thread-9 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,524 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,534 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,539 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,550 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,649 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,675 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,689 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,703 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,711 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,722 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,734 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,741 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,747 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,756 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,763 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,773 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,779 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,787 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,874 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:24,894 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:24,896 | INFO | Thread-10 | V3M | Simulation reset initiated
+2026-02-23 08:11:24,896 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,898 | INFO | Thread-10 | V3M | Simulation reset completed
+2026-02-23 08:11:24,898 | INFO | Thread-10 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:24,913 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,925 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:24,933 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:25,045 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:25,065 | INFO | Thread-3 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:11:25,065 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:25,078 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:25,082 | INFO | Thread-11 | V3M | Simulation reset initiated
+2026-02-23 08:11:25,082 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,087 | INFO | Thread-11 | V3M | Simulation reset completed
+2026-02-23 08:11:25,094 | INFO | Thread-11 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,102 | INFO | Thread-3 | V3M | Reset flag handled; restarting iterations
+2026-02-23 08:11:25,105 | INFO | Thread-3 | V3M | Client connection closed / final braking command sent
+2026-02-23 08:11:25,114 | INFO | Thread-3 | V3M | Final lap time recorded: 40.168s
+2026-02-23 08:11:25,117 | INFO | Thread-3 | V3M | Server socket closed
+2026-02-23 08:11:25,118 | INFO | Thread-3 | V3M | Generating plots...
+2026-02-23 08:11:25,302 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:25,307 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:25,314 | INFO | Thread-12 | V3M | Simulation reset initiated
+2026-02-23 08:11:25,314 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,328 | INFO | Thread-12 | V3M | Simulation reset completed
+2026-02-23 08:11:25,330 | INFO | Thread-12 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,360 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:25,365 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:25,367 | INFO | Thread-13 | V3M | Simulation reset initiated
+2026-02-23 08:11:25,367 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,389 | INFO | Thread-13 | V3M | Simulation reset completed
+2026-02-23 08:11:25,406 | INFO | Thread-13 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,503 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:25,511 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:25,515 | INFO | Thread-14 | V3M | Simulation reset initiated
+2026-02-23 08:11:25,516 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,532 | INFO | Thread-14 | V3M | Simulation reset completed
+2026-02-23 08:11:25,535 | INFO | Thread-14 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,541 | WARNING | Thread-3 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-23 08:11:25,713 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:11:25,719 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:11:25,721 | INFO | Thread-15 | V3M | Simulation reset initiated
+2026-02-23 08:11:25,721 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:25,745 | INFO | Thread-15 | V3M | Simulation reset completed
+2026-02-23 08:11:25,747 | INFO | Thread-15 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:11:26,502 | WARNING | Thread-3 | V3M | Plot function plot_e_l_Values returned None
+2026-02-23 08:11:26,902 | WARNING | Thread-3 | V3M | Plot function plot_balance_Values returned None
+2026-02-23 08:11:27,307 | WARNING | Thread-3 | V3M | Plot function plot_Angles returned None
+2026-02-23 08:11:27,740 | WARNING | Thread-3 | V3M | Plot function plot_Torque returned None
+2026-02-23 08:11:28,176 | WARNING | Thread-3 | V3M | Plot function plot_TargetValues returned None
+2026-02-23 08:11:28,610 | WARNING | Thread-3 | V3M | Plot function plot_PedalValues returned None
+2026-02-23 08:11:28,961 | WARNING | Thread-3 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-23 08:11:29,439 | WARNING | Thread-3 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-23 08:11:29,820 | WARNING | Thread-3 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-23 08:11:30,226 | WARNING | Thread-3 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-23 08:11:30,628 | WARNING | Thread-3 | V3M | Plot function plot_refDistances returned None
+2026-02-23 08:11:30,632 | INFO | Thread-3 | V3M | Plot generation complete: 0/12 figures created
+2026-02-23 08:11:30,636 | INFO | Thread-3 | V3M | Figures saved locally (count=0)
+2026-02-23 08:11:30,637 | INFO | Thread-3 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2026-02-23 08:11:30,642 | INFO | Thread-3 | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-23 08:11:58,265 | INFO | MainThread | V3M | Starting server task
+2026-02-23 08:11:58,265 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2026-02-23 08:11:58,267 | INFO | Thread-16 | V3M | Starting UDP server...
+2026-02-23 08:11:58,268 | INFO | Thread-16 | V3M | Server bound to 127.0.0.1:6020
+2026-02-23 08:12:07,527 | INFO | Thread-16 | V3M | Client connected: ('127.0.0.1', 55184)
+2026-02-23 08:12:07,529 | INFO | Thread-16 | V3M | Server stopped.
+2026-02-23 08:12:07,529 | INFO | Thread-16 | V3M | BackgroundTask stop requested: run_server
+2026-02-23 08:12:08,965 | INFO | MainThread | V3M | Simulation starting...
+2026-02-23 08:12:08,973 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2026-02-23 08:12:08,974 | INFO | Thread-17 | V3M | Backend simulation loop starting
+2026-02-23 08:12:08,990 | INFO | Thread-17 | V3M | Validating track file selection
+2026-02-23 08:12:09,030 | INFO | Thread-17 | V3M | Track file read successfully: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673, cols=6)
+2026-02-23 08:12:09,055 | INFO | Thread-17 | V3M | Trajectory loaded: C:\Users\Arindam.Ghosh\OneDrive - Fortescue Metals Group\FZ - ShareFolder\Benchmark_Model\V3M\Trajectories\ValenciaS12.csv (rows=1673)
+2026-02-23 08:12:09,074 | INFO | Thread-17 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2026-02-23 08:12:09,079 | INFO | Thread-17 | V3M | Waiting for client loop entered
+2026-02-23 08:12:09,323 | INFO | Thread-17 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3337.79
+2026-02-23 08:21:06,737 | INFO | Thread-17 | V3M | Lap 1 completed in 129.352s
+2026-02-23 08:21:17,700 | INFO | MainThread | V3M | Simulation stop requested by user
+2026-02-23 08:21:17,711 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,749 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,780 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,787 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,795 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,802 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,808 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,816 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,828 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,894 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,925 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,934 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,943 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,951 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,958 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,966 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:17,977 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,010 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,074 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,083 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,092 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,102 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,110 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,120 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,127 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,136 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,147 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,155 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,163 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,235 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,254 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,263 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,272 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,281 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,327 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,366 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,374 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,384 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,391 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,404 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,411 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,419 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,427 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,460 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,494 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,534 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,548 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,559 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,567 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,577 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,611 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,680 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,697 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,710 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,829 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,850 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,875 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,889 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,901 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,910 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:18,982 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,003 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,012 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,026 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,034 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,044 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,052 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,061 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,071 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,079 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,094 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,153 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,184 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,213 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,224 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,233 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,243 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,252 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,259 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,271 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,281 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,289 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,297 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,325 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,356 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,392 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,399 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,404 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,414 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,422 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,432 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,442 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,450 | INFO | Thread-17 | V3M | Stop flag set; commanding safe stop torques/pressures
+2026-02-23 08:21:19,454 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:21:19,475 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:21:19,487 | INFO | Thread-18 | V3M | Simulation reset initiated
+2026-02-23 08:21:19,487 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:21:19,512 | INFO | Thread-18 | V3M | Simulation reset completed
+2026-02-23 08:21:19,512 | INFO | Thread-18 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:21:19,528 | WARNING | Thread-17 | V3M | Abort flag detected during simulation loop; breaking
+2026-02-23 08:21:19,559 | INFO | Thread-17 | V3M | Client connection closed / final braking command sent
+2026-02-23 08:21:19,565 | INFO | Thread-17 | V3M | Final lap time recorded: 3.666s
+2026-02-23 08:21:19,565 | INFO | Thread-17 | V3M | Server socket closed
+2026-02-23 08:21:19,565 | INFO | Thread-17 | V3M | Generating plots...
+2026-02-23 08:21:19,985 | WARNING | Thread-17 | V3M | Plot function plotTraj returned None
+2026-02-23 08:21:20,461 | WARNING | Thread-17 | V3M | Plot function plot_e_phi_Values returned None
+2026-02-23 08:21:21,600 | INFO | MainThread | V3M | Simulation reset button pressed
+2026-02-23 08:21:21,632 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2026-02-23 08:21:21,648 | INFO | Thread-19 | V3M | Simulation reset initiated
+2026-02-23 08:21:21,648 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:21:21,672 | INFO | Thread-19 | V3M | Simulation reset completed
+2026-02-23 08:21:21,673 | INFO | Thread-19 | V3M | BackgroundTask stop requested: reset_simulation_task
+2026-02-23 08:21:21,801 | WARNING | Thread-17 | V3M | Plot function plot_e_l_Values returned None
+2026-02-23 08:21:22,250 | WARNING | Thread-17 | V3M | Plot function plot_balance_Values returned None
+2026-02-23 08:21:22,813 | WARNING | Thread-17 | V3M | Plot function plot_Angles returned None
+2026-02-23 08:21:23,474 | WARNING | Thread-17 | V3M | Plot function plot_Torque returned None
+2026-02-23 08:21:23,975 | WARNING | Thread-17 | V3M | Plot function plot_TargetValues returned None
+2026-02-23 08:21:24,332 | INFO | MainThread | V3M | Application closing requested
+2026-02-23 08:21:24,345 | INFO | MainThread | V3M | BackgroundTask stop requested: run_backend_script
+2026-02-23 08:21:24,361 | INFO | MainThread | V3M | Tkinter main loop quit
+2026-02-23 08:21:24,372 | INFO | MainThread | V3M | Application exited cleanly
+2026-02-23 08:21:24,426 | WARNING | Thread-17 | V3M | Plot function plot_PedalValues returned None
+2026-02-23 08:21:24,861 | WARNING | Thread-17 | V3M | Plot function plot_nMGU_Values returned None
+2026-02-23 08:21:25,362 | WARNING | Thread-17 | V3M | Plot function plot_Throttle_PID_Values returned None
+2026-02-23 08:21:25,818 | WARNING | Thread-17 | V3M | Plot function plot_Brake_PID_Values returned None
+2026-02-23 08:21:26,234 | WARNING | Thread-17 | V3M | Plot function plot_vCar_error_Values returned None
+2026-02-23 08:21:26,668 | WARNING | Thread-17 | V3M | Plot function plot_refDistances returned None
+2026-02-23 08:21:26,668 | INFO | Thread-17 | V3M | Plot generation complete: 0/13 figures created
+2026-02-23 08:21:28,815 | ERROR | Thread-17 | V3M | Exception in BackgroundTask::run_backend_script: main thread is not in main loop
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 2194, in run_backend_script
+  File "V3M_Ext_Driver.py", line 1395, in _append_to_console_output_safe
+  File "tkinter\__init__.py", line 872, in after
+  File "tkinter\__init__.py", line 1584, in _register
+RuntimeError: main thread is not in main loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 312, in run
+  File "V3M_Ext_Driver.py", line 2207, in run_backend_script
+  File "V3M_Ext_Driver.py", line 1395, in _append_to_console_output_safe
+  File "tkinter\__init__.py", line 872, in after
+  File "tkinter\__init__.py", line 1584, in _register
+RuntimeError: main thread is not in main loop
+2026-02-23 08:21:28,868 | INFO | Thread-17 | V3M | BackgroundTask stop requested: run_backend_script

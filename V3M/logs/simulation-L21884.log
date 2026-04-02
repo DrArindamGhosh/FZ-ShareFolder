@@ -1,0 +1,123 @@
+2025-11-06 10:36:13,893 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-11-06 10:36:14,019 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-11-06 10:36:14,045 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2025-11-06 10:36:47,114 | INFO | MainThread | V3M | Starting server task
+2025-11-06 10:36:47,114 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2025-11-06 10:36:47,114 | INFO | Thread-2 | V3M | Starting UDP server...
+2025-11-06 10:36:47,114 | INFO | Thread-2 | V3M | Server bound to 127.0.0.1:6020
+2025-11-06 10:36:54,176 | INFO | Thread-2 | V3M | Client connected: ('127.0.0.1', 60671)
+2025-11-06 10:36:54,176 | INFO | Thread-2 | V3M | Server stopped.
+2025-11-06 10:36:54,176 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2025-11-06 10:37:10,325 | INFO | MainThread | V3M | Simulation starting...
+2025-11-06 10:37:10,329 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2025-11-06 10:37:10,331 | INFO | Thread-3 | V3M | Backend simulation loop starting
+2025-11-06 10:37:10,355 | INFO | Thread-3 | V3M | Validating track file selection
+2025-11-06 10:37:10,361 | INFO | Thread-3 | V3M | Track file read successfully: C:\Users\Alex.Gyetvai\OneDrive - Fortescue Metals Group\ShareFolder\V3M\Trajectories\ValenciaS11_Run_3049.csv (rows=1714, cols=6)
+2025-11-06 10:37:10,373 | INFO | Thread-3 | V3M | Trajectory loaded: C:\Users\Alex.Gyetvai\OneDrive - Fortescue Metals Group\ShareFolder\V3M\Trajectories\ValenciaS11_Run_3049.csv (rows=1714)
+2025-11-06 10:37:10,373 | INFO | Thread-3 | V3M | Parameters loaded | Dil=False, laps=inf, e_phi_gain=2.000, steer_limits=28.000
+2025-11-06 10:37:10,382 | INFO | Thread-3 | V3M | Waiting for client loop entered
+2025-11-06 10:37:10,484 | INFO | Thread-3 | V3M | Lap reference generated (first iteration). clockwise=False, maxS=3331.41
+2025-11-06 10:37:40,763 | WARNING | MainThread | V3M | Simulation abort pressed
+2025-11-06 10:37:40,763 | INFO | MainThread | V3M | BackgroundTask stop requested: run_backend_script
+2025-11-06 10:37:40,779 | WARNING | Thread-3 | V3M | Abort flag detected during simulation loop; breaking
+2025-11-06 10:37:40,779 | INFO | Thread-3 | V3M | Client connection closed / final braking command sent
+2025-11-06 10:37:40,795 | INFO | Thread-3 | V3M | Final lap time recorded: 44.434s
+2025-11-06 10:37:40,795 | INFO | Thread-3 | V3M | Server socket closed
+2025-11-06 10:37:40,795 | INFO | Thread-3 | V3M | Generating plots...
+2025-11-06 10:37:40,970 | WARNING | Thread-3 | V3M | Plot function plotTraj returned None
+2025-11-06 10:37:41,145 | WARNING | Thread-3 | V3M | Plot function plot_e_phi_Values returned None
+2025-11-06 10:37:41,654 | WARNING | Thread-3 | V3M | Plot function plot_e_l_Values returned None
+2025-11-06 10:37:41,813 | WARNING | Thread-3 | V3M | Plot function plot_balance_Values returned None
+2025-11-06 10:37:42,005 | WARNING | Thread-3 | V3M | Plot function plot_Angles returned None
+2025-11-06 10:37:42,197 | WARNING | Thread-3 | V3M | Plot function plot_Torque returned None
+2025-11-06 10:37:42,388 | WARNING | Thread-3 | V3M | Plot function plot_TargetValues returned None
+2025-11-06 10:37:42,579 | WARNING | Thread-3 | V3M | Plot function plot_PedalValues returned None
+2025-11-06 10:37:42,754 | WARNING | Thread-3 | V3M | Plot function plot_nMGU_Values returned None
+2025-11-06 10:37:42,930 | WARNING | Thread-3 | V3M | Plot function plot_Throttle_PID_Values returned None
+2025-11-06 10:37:43,106 | WARNING | Thread-3 | V3M | Plot function plot_Brake_PID_Values returned None
+2025-11-06 10:37:43,281 | WARNING | Thread-3 | V3M | Plot function plot_vCar_error_Values returned None
+2025-11-06 10:37:43,457 | WARNING | Thread-3 | V3M | Plot function plot_refDistances returned None
+2025-11-06 10:37:43,457 | INFO | Thread-3 | V3M | Plot generation complete: 0/13 figures created
+2025-11-06 10:37:43,457 | INFO | Thread-3 | V3M | Figures saved locally (count=0)
+2025-11-06 10:37:43,457 | INFO | Thread-3 | V3M | Backend script finished execution; updating UI state to 'Disconnected'
+2025-11-06 10:37:43,470 | INFO | Thread-3 | V3M | BackgroundTask stop requested: run_backend_script
+2025-11-06 10:37:44,336 | INFO | MainThread | V3M | Application closing requested
+2025-11-06 10:37:44,336 | INFO | MainThread | V3M | Tkinter main loop quit
+2025-11-06 10:37:44,336 | INFO | MainThread | V3M | Application exited cleanly
+2025-11-06 10:39:13,786 | INFO | MainThread | V3M | Launching V3M Simulation Console Application...
+2025-11-06 10:39:13,946 | INFO | MainThread | V3M | ConsoleApp initialized
+2025-11-06 10:39:13,972 | INFO | ResetListener | V3M | Reset listener bound on UDP port 6015
+2025-11-06 10:42:03,228 | INFO | MainThread | V3M | Starting server task
+2025-11-06 10:42:03,228 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2025-11-06 10:42:03,237 | INFO | Thread-2 | V3M | Starting UDP server...
+2025-11-06 10:42:03,237 | ERROR | Thread-2 | V3M | Exception in run_server: [WinError 10049] The requested address is not valid in its context
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 1121, in run_server
+OSError: [WinError 10049] The requested address is not valid in its context
+2025-11-06 10:42:03,241 | INFO | Thread-2 | V3M | Server stopped.
+2025-11-06 10:42:03,241 | INFO | Thread-2 | V3M | BackgroundTask stop requested: run_server
+2025-11-06 10:42:17,912 | WARNING | MainThread | V3M | Simulation abort pressed
+2025-11-06 10:42:17,931 | INFO | MainThread | V3M | Server socket closed on abort
+2025-11-06 10:42:21,137 | INFO | MainThread | V3M | Simulation reset button pressed
+2025-11-06 10:42:21,155 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2025-11-06 10:42:21,155 | INFO | Thread-3 | V3M | Simulation reset initiated
+2025-11-06 10:42:21,155 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-11-06 10:42:21,155 | INFO | Thread-3 | V3M | Simulation reset completed
+2025-11-06 10:42:21,155 | INFO | Thread-3 | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-11-06 10:42:25,749 | INFO | MainThread | V3M | Starting server task
+2025-11-06 10:42:25,749 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2025-11-06 10:42:25,749 | INFO | Thread-4 | V3M | Starting UDP server...
+2025-11-06 10:42:25,761 | INFO | Thread-4 | V3M | Server bound to 127.0.0.1:6020
+2025-11-06 10:42:29,043 | INFO | Thread-4 | V3M | Client connected: ('127.0.0.1', 60828)
+2025-11-06 10:42:29,043 | INFO | Thread-4 | V3M | Server stopped.
+2025-11-06 10:42:29,043 | INFO | Thread-4 | V3M | BackgroundTask stop requested: run_server
+2025-11-06 10:42:34,165 | INFO | MainThread | V3M | Simulation starting...
+2025-11-06 10:42:34,165 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2025-11-06 10:42:34,177 | INFO | Thread-5 | V3M | Backend simulation loop starting
+2025-11-06 10:42:34,182 | INFO | Thread-5 | V3M | Validating track file selection
+2025-11-06 10:42:34,182 | ERROR | Thread-5 | V3M | Exception in validate_csv_file: [Errno 2] No such file or directory: 'C:\\Users\\Arindam.Ghosh\\OneDrive - Fortescue Metals Group\\FZ - ShareFolder\\V3M\\Trajectories\\ValenciaS11_Run_3049.csv'
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 1372, in validate_csv_file
+  File "pandas\io\parsers\readers.py", line 948, in read_csv
+  File "pandas\io\parsers\readers.py", line 611, in _read
+  File "pandas\io\parsers\readers.py", line 1448, in __init__
+  File "pandas\io\parsers\readers.py", line 1705, in _make_engine
+  File "pandas\io\common.py", line 863, in get_handle
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Arindam.Ghosh\\OneDrive - Fortescue Metals Group\\FZ - ShareFolder\\V3M\\Trajectories\\ValenciaS11_Run_3049.csv'
+2025-11-06 10:42:34,182 | ERROR | Thread-5 | V3M | CSV validation failed; aborting backend script
+2025-11-06 10:42:34,182 | INFO | Thread-5 | V3M | BackgroundTask stop requested: run_backend_script
+2025-11-06 10:46:42,294 | INFO | MainThread | V3M | Simulation stop requested by user
+2025-11-06 10:46:43,264 | INFO | MainThread | V3M | Simulation reset button pressed
+2025-11-06 10:46:43,281 | INFO | MainThread | V3M | BackgroundTask started: reset_simulation_task
+2025-11-06 10:46:43,281 | INFO | Thread-6 | V3M | Simulation reset initiated
+2025-11-06 10:46:43,281 | INFO | MainThread | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-11-06 10:46:43,281 | INFO | Thread-6 | V3M | Simulation reset completed
+2025-11-06 10:46:43,281 | INFO | Thread-6 | V3M | BackgroundTask stop requested: reset_simulation_task
+2025-11-06 10:46:52,404 | INFO | MainThread | V3M | Starting server task
+2025-11-06 10:46:52,404 | INFO | MainThread | V3M | BackgroundTask started: run_server
+2025-11-06 10:46:52,404 | INFO | Thread-7 | V3M | Starting UDP server...
+2025-11-06 10:46:52,420 | INFO | Thread-7 | V3M | Server bound to 127.0.0.1:6020
+2025-11-06 10:46:58,381 | INFO | Thread-7 | V3M | Client connected: ('127.0.0.1', 57498)
+2025-11-06 10:46:58,381 | INFO | Thread-7 | V3M | Server stopped.
+2025-11-06 10:46:58,381 | INFO | Thread-7 | V3M | BackgroundTask stop requested: run_server
+2025-11-06 10:47:01,742 | INFO | MainThread | V3M | Simulation starting...
+2025-11-06 10:47:01,742 | INFO | MainThread | V3M | BackgroundTask started: run_backend_script
+2025-11-06 10:47:01,742 | INFO | Thread-8 | V3M | Backend simulation loop starting
+2025-11-06 10:47:01,750 | INFO | Thread-8 | V3M | Validating track file selection
+2025-11-06 10:47:01,769 | ERROR | Thread-8 | V3M | Exception in validate_csv_file: [Errno 2] No such file or directory: 'C:\\Users\\Arindam.Ghosh\\OneDrive - Fortescue Metals Group\\FZ - ShareFolder\\V3M\\Trajectories\\ValenciaS11_Run_3049.csv'
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 1372, in validate_csv_file
+  File "pandas\io\parsers\readers.py", line 948, in read_csv
+  File "pandas\io\parsers\readers.py", line 611, in _read
+  File "pandas\io\parsers\readers.py", line 1448, in __init__
+  File "pandas\io\parsers\readers.py", line 1705, in _make_engine
+  File "pandas\io\common.py", line 863, in get_handle
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Arindam.Ghosh\\OneDrive - Fortescue Metals Group\\FZ - ShareFolder\\V3M\\Trajectories\\ValenciaS11_Run_3049.csv'
+2025-11-06 10:47:01,769 | ERROR | Thread-8 | V3M | CSV validation failed; aborting backend script
+2025-11-06 10:47:01,769 | INFO | Thread-8 | V3M | BackgroundTask stop requested: run_backend_script
+2025-11-06 10:47:11,367 | INFO | MainThread | V3M | Simulation stop requested by user
+2025-11-06 10:47:12,632 | WARNING | MainThread | V3M | Simulation abort pressed
+2025-11-06 10:47:12,632 | INFO | MainThread | V3M | Server socket closed on abort
+2025-11-06 10:47:56,032 | INFO | MainThread | V3M | Application closing requested
+2025-11-06 10:47:56,032 | INFO | MainThread | V3M | Tkinter main loop quit
+2025-11-06 10:47:56,032 | INFO | MainThread | V3M | Application exited cleanly

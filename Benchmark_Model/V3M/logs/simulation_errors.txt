@@ -1,0 +1,29 @@
+[2026-02-18 12:03:50] Context: start_reset_listener
+Error: OSError(10048, 'Only one usage of each socket address (protocol/network address/port) is normally permitted', None, 10048, None)
+Traceback:
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 1612, in listen_for_reset
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+------------------------------------------------------------------------
+[2026-02-23 08:21:28] Context: BackgroundTask::run_backend_script
+Error: RuntimeError('main thread is not in main loop')
+Traceback:
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 2194, in run_backend_script
+  File "V3M_Ext_Driver.py", line 1395, in _append_to_console_output_safe
+  File "tkinter\__init__.py", line 872, in after
+  File "tkinter\__init__.py", line 1584, in _register
+RuntimeError: main thread is not in main loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V3M_Ext_Driver.py", line 312, in run
+  File "V3M_Ext_Driver.py", line 2207, in run_backend_script
+  File "V3M_Ext_Driver.py", line 1395, in _append_to_console_output_safe
+  File "tkinter\__init__.py", line 872, in after
+  File "tkinter\__init__.py", line 1584, in _register
+RuntimeError: main thread is not in main loop
+
+------------------------------------------------------------------------
