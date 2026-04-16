@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tyre xmlns="http://intranet.williams.co.uk/tyre">
+   <FM_TT6.1 Notes="TameTire V6_1 Front Right Tyre">
+      <FM_TT6.1_Model Fz_Direction="UP" Ref_Frame="ISO-W" runtime_loadedInfo="Fz"/>
+      <FM_TT6.1_Units Angle="rad" Force="N" Length="m" Moment="Nm"/>
+   </FM_TT6.1>
+		<FM_InputLimits AlphaMin="-1.5708" AlphaMax="1.5708" GammaMin="-0.1047" GammaMax="0.0523" KappaMin="-1.5" KappaMax="1.5"/>
+   <CD_ConstantWidth>
+			<CD_ConstantWidth_Coefficients WOVERALL="2.45000E-01" WGROOVE="0.0"/>
+   </CD_ConstantWidth>
+		<FM_TransientSlip_None Notes="No Transient Slip Model">
+		</FM_TransientSlip_None>
+		<LR_TTV5_1 Notes="Data Delivery 23-01-20" Reference="2020">
+			<LR_TTV5_1_Coefficients Kzz0="114180" Kzzp="82273" ReV="1.11e-06" ReY1="9.1e-07" ReY2="-4.32e-07" ReGamma="4.33e-04" Re0="0.3199"/>
+			<LR_TTV5_1_Damping CT="460" FC="100.0"/>
+			<LR_TTV5_1_Units Angle="rad" Force="N" Length="m" Pressure="bar" Velocity="m/s"/>
+		</LR_TTV5_1>
+		<ERR_PiV2 Reference="2014" Notes="Data Delivery 08-11-13">
+    	  		<ERR_PiV2_Coefficients R0="317" A="-0.028" B="0.0004" D="0.00000025" E="0.0000000001" F="1.23"/>
+			<ERR_PiV2_Units Force="N" Length="mm" Velocity="km/h" Pressure="psi"/>
+   </ERR_PiV2>
+   <RR_PiV1 Notes="2014 Data Delivery 27-01-14">
+          		<RR_PiV1_Coefficients RR0="32.03" A="2007200000" B="1.01E-05" C="0.000866" D="-0.83986" E="4.946" F="-8.0998E-06" G="24.3E-07" H="2.448E-05" I="14038"/>
+			<RR_PiV1_Longitudinal_Moment KEXNOM="6.299000000E-06" FZNOM="4.000000000E+03" PEXZ="-1.894000000E-01" DKEXV="-1.108000000E-06" VNOM="2.000000000E+02" PEXV="1.000000000E+00"/>
+			<RR_PiV1_Units Force="N" Pressure="psi" Velocity="km/h" Angle="deg"/>
+   </RR_PiV1>
+   <DYNAMIC_Williams RelaxationLength_m="1.0"/>
+</Tyre>

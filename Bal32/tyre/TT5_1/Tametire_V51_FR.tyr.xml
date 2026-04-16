@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tyre xmlns="http://intranet.williams.co.uk/tyre"><!-- MF5.2 TYRE FILE BASED ON 2017 MICHELIN SUPPLIED DATA 			-->
+   <FM_TT5.1 Notes="TYRE COEFFICIENTS FROM MICHELIN S03 FORMULAE E TYRE, RAIDII FROM PIRELLI MODEL">
+      <FM_TT5.1_Model Fz_Direction="UP" Ref_Frame="ISO-W"/>
+      <FM_TT5.1_Basic_Coefficients FZ0="3.00000E+03" R0="0.3199"/>
+      <FM_TT5.1_Longitudinal_Coefficients 	PCX1="1.57691" 
+											PDX1="1.54663" PDX2="-0.128130" PDX3="6.65152" 
+											PEX1="0.0956300" PEX2="-0.214390" PEX3="-0.205030" PEX4="1.48584" 
+											PHX1="-0.00187000" PHX2="0.000300000" 
+											PKX1="33.3114" PKX2="13.7334" PKX3="-0.210580" 
+											PVX1="0.0331400" PVX2="-0.00411000" 
+											RBX1="11.8486" RBX2="9.36794" 
+											RCX1="0.998070" 
+											REX1="-0.525200" REX2="-0.927630" 
+											RHX1="-0.00210000"/>
+      <FM_TT5.1_Lateral_Coefficients 		PCY1="1.57734" 
+											PDY1="1.50133" PDY2="-0.217340" PDY3="1.82039" 
+											PEY1="-0.805970" PEY2="-1.39505" PEY3="0.0270500" PEY4="-0.215350" PEY5="+0.00000E+00" 
+											PHY1="-6.90000e-09" PHY2="-0.000330000" PHY3="0.181920" 
+											PKY1="-31.1028" PKY2="2.67249" PKY3="0.165990" 
+											PVY1="-0.0117300" PVY2="-0.00429000" PVY3="-0.492160" PVY4="-0.284090" 
+											RBY1="17.9476" RBY2="-8.00000" RBY3="0.000800000" 
+											RCY1="1.08090" 
+											REY1="0.456400" REY2="0.489500" 
+											RHY1="-0.00242000" RHY2="0.00925000" 
+											RVY1="-0.0694400" RVY2="0.0642800" RVY3="-2.81378" RVY4="3.67035" RVY5="0.0609600" RVY6="8.98229"/>
+      <FM_TT5.1_Aligning_Coefficients 		QBZ1="8.87270" QBZ10="0.000000" QBZ2="1.51260" QBZ3="0.000000" QBZ4="-3.09170" QBZ5="-2.57520" QBZ9="9.57110" 
+											QCZ1="1.12460" 
+											QDZ1="0.0783160" QDZ2="-0.00720190" QDZ3="1.52810" QDZ4="0.000000" QDZ6="-0.00395950" QDZ7="-0.000585350" QDZ8="-0.579750" QDZ9="0.0116180" 
+											QEZ1="-5.59330" QEZ2="2.19090" QEZ3="0.000000" QEZ4="-0.0901120" QEZ5="-7.30120" 
+											QHZ1="-0.00182560" QHZ2="0.000868920" QHZ3="0.0373170" QHZ4="-0.0608130" 
+											QTZ1="0.000000" 
+											SSZ1="-1.00610e-05" SSZ2="4.00300e-05" SSZ3="4.93130e-05" SSZ4="2.19640e-05"/>
+      <FM_TT5.1_Scaling_Coefficients 		LFZ0="1.00" 
+											LKX="0.720000" LKY="1.00000" 
+											LMUX="0.890000" LMUY="0.870000" 
+											LCX="1.00000" LCY="1.00000" 
+											LEX="1.00000" LEY="1.00000" 											
+											LGAX="1.00000" LGAY="1.00000" LGAZ="1.00000" LGYR="1.00000" 
+											LHX="1.00000" LHY="1.00000" 
+											LRES="1.00000" LS="1.00000" LSGAL="1.00000" LSGKP="1.00000" LTR="1.00000" 
+											LVX="1.00000" LVY="1.00000" LVYKA="1.00000" 
+											LXAL="0.8000" LYKA="0.550000"/>
+      <FM_TT5.1_Limits FzMax="8000.0" FzMin="100.0"/>
+      <FM_TT5.1_Units Angle="rad" Force="N" Length="m" Moment="Nm"/>
+   </FM_TT5.1>
+		<FM_InputLimits AlphaMin="-1.5708" AlphaMax="1.5708" GammaMin="-0.1047" GammaMax="0.0523" KappaMin="-1.5" KappaMax="1.5"/>
+   <CD_ConstantWidth>
+			<CD_ConstantWidth_Coefficients WOVERALL="2.45000E-01" WGROOVE="0.0"/>
+   </CD_ConstantWidth>
+		<FM_TransientSlip_None Notes="No Transient Slip Model">
+		</FM_TransientSlip_None>
+		<LR_TTV5_1 Notes="Data Delivery 23-01-20" Reference="2020">
+			<LR_TTV5_1_Coefficients Kzz0="114180" Kzzp="82273" ReV="1.11e-06" ReY1="9.1e-07" ReY2="-4.32e-07" ReGamma="4.33e-04" Re0="0.3199"/>
+			<LR_TTV5_1_Damping CT="460" FC="100.0"/>
+			<LR_TTV5_1_Units Angle="rad" Force="N" Length="m" Pressure="bar" Velocity="m/s"/>
+		</LR_TTV5_1>
+		<ERR_PiV2 Reference="2014" Notes="Data Delivery 08-11-13">
+    	  		<ERR_PiV2_Coefficients R0="317" A="-0.028" B="0.0004" D="0.00000025" E="0.0000000001" F="1.23"/>
+			<ERR_PiV2_Units Force="N" Length="mm" Velocity="km/h" Pressure="psi"/>
+   </ERR_PiV2>
+   <RR_PiV1 Notes="2014 Data Delivery 27-01-14">
+          		<RR_PiV1_Coefficients RR0="32.03" A="2007200000" B="1.01E-05" C="0.000866" D="-0.83986" E="4.946" F="-8.0998E-06" G="24.3E-07" H="2.448E-05" I="14038"/>
+			<RR_PiV1_Longitudinal_Moment KEXNOM="6.299000000E-06" FZNOM="4.000000000E+03" PEXZ="-1.894000000E-01" DKEXV="-1.108000000E-06" VNOM="2.000000000E+02" PEXV="1.000000000E+00"/>
+			<RR_PiV1_Units Force="N" Pressure="psi" Velocity="km/h" Angle="deg"/>
+   </RR_PiV1>
+   <DYNAMIC_Williams RelaxationLength_m="1.0"/>
+</Tyre>

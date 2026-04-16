@@ -1,0 +1,83 @@
+$-----------------------------------------------------------------TAMETIRE_HEADER
+[TAMETIRE_HEADER]  
+FILE_TYPE                =  'tir'               
+FILE_VERSION             =  6.1                 
+FILE_FORMAT              =  'ASCII'             
+(COMMENTS) 
+{comment_string} 
+'MICHELIN AR_FE_A5_FV_610_RR_R004_Jag 270 / 68 18'
+$-----------------------------------------------------------------UNITS
+[UNITS]  
+LENGTH                   =  'meter'             
+FORCE                    =  'newton'            
+ANGLE                    =  'radians'           
+MASS                     =  'kg'                
+TIME                     =  'second'            
+$-----------------------------------------------------------------MODEL
+[MODEL]  
+PROPERTY_FILE_FORMAT     =  'TAMETIRE'          
+USER_ID                  =  'JAG'               
+$-----------------------------------------------------------------INITIAL_CONDITIONS
+[INIT]  
+Time                     =  0                   
+TGI                      =  20                  
+TempSurf                 =  20                  
+TempTrack                =  20                  
+TempCore                 =  20                  
+TempRim                  =  25                  
+InfPress                 =  1.40                
+TAirInterne              =  20                  
+$-----------------------------------------------------------------MODEL_CONDITIONS
+[PARAMETERS]  
+SolverMode               =  102                   
+CalcOpt                  =  1                   
+CalcFrame                =  1                   
+Side                     =  'right'             
+ImposedPressure          =  0                   
+WearAndDegradation       =  0                   
+$-----------------------------------------------------------------LIMIT
+[LIMIT]  
+{IncAng} 
+-0.100000000000000 0.100000000000000
+{Deflec} 
+0.000000000000000 0.051435240374881
+{TempSurf} 
+10.000000000000000 200.000000000000000
+{TCore} 
+10.000000000000000 200.000000000000000
+$-----------------------------------------------------------------DIMENSION
+[DIMENSION]  
+UNLOADED_RADIUS          =  0.33820             $ m
+RIM_RADIUS               =  0.229               $ m
+ASPECT_RATIO             =  0.68                $ -
+WIDTH                    =  0.270               $ m
+RIM_WIDTH                =  0.279               $ m
+$-----------------------------------------------------------------VERTICAL
+[VERTICAL]  
+VERTICAL_DAMPING         =  800                 
+STIFFNESS                =  239123              
+VERTICAL_STIFFNESS       =  79000               $ N/m
+PRESSURE_STIFFNESS       =  100077              
+FLOAD_MAX                =  12000               $ N
+$-----------------------------------------------------------------STANDSTILL
+[STANDSTILL]  
+cLong                    =  0.01                
+cSide                    =  0.20                
+vMax                     =  0.25                
+$-----------------------------------------------------------------SCALE
+[SCALE]  
+LatSlipStiff             =  1                   $ -
+LongSlipStiff            =  1                   $ -
+BeltCompl                =  1                   $ -
+TorsStiff                =  1                   $ -
+GlobalFric               =  1                   $ -
+TreadDepth               =  1                   $ -
+LongStiff                =  1                   $ -
+LatStiff                 =  1                   $ -
+VertStiff                =  1                   $ -
+RR                       =  1                   $ -
+LmuP                     =  1                   $ -
+$-----------------------------------------------------------------DATA
+[DATA]  
+{CData} 
+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

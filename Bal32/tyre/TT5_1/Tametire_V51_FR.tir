@@ -1,0 +1,83 @@
+$-----------------------------------------------------------------TAMETIRE_HEADER
+[TAMETIRE_HEADER]  
+FILE_TYPE                =  'tir'               
+FILE_VERSION             =  5.1                 
+FILE_FORMAT              =  'ASCII'             
+(COMMENTS) 
+{comment_string} 
+'MICHELIN AV_FE_A5_FV_510_RR_F017_Jag 240 / 64 18'
+$-----------------------------------------------------------------UNITS
+[UNITS]  
+LENGTH                   =  'meter'             
+FORCE                    =  'newton'            
+ANGLE                    =  'radians'           
+MASS                     =  'kg'                
+TIME                     =  'second'            
+$-----------------------------------------------------------------MODEL
+[MODEL]  
+PROPERTY_FILE_FORMAT     =  'TAMETIRE'          
+USER_ID                  =  'JAG'               
+$-----------------------------------------------------------------INITIAL_CONDITIONS
+[INIT]  
+Time                     =  0                   
+TGI                      =  70                  
+TempSurf                 =  70                  
+TempTrack                =  20                  
+TempCore                 =  70                  
+TempRim                  =  25                  
+InfPress                 =  1.60                
+TAirInterne              =  30                  
+$-----------------------------------------------------------------MODEL_CONDITIONS
+[PARAMETERS]  
+SolverMode               =  2                   
+CalcOpt                  =  1                   
+CalcFrame                =  1                   
+Side                     =  'right'             
+ImposedPressure          =  1                   
+WearAndDegradation       =  0                   
+$-----------------------------------------------------------------LIMIT
+[LIMIT]  
+{IncAng} 
+-0.100000000000000 0.100000000000000
+{Deflec} 
+0.000000000000000 0.045754131026105
+{TempSurf} 
+10.000000000000000 200.000000000000000
+{TCore} 
+10.000000000000000 200.000000000000000
+$-----------------------------------------------------------------DIMENSION
+[DIMENSION]  
+UNLOADED_RADIUS          =  0.31986             $ m
+RIM_RADIUS               =  0.229               $ m
+ASPECT_RATIO             =  0.64                $ -
+WIDTH                    =  0.240               $ m
+RIM_WIDTH                =  0.229               $ m
+$-----------------------------------------------------------------VERTICAL
+[VERTICAL]  
+VERTICAL_DAMPING         =  3500                
+STIFFNESS                =  245817              
+VERTICAL_STIFFNESS       =  114180              $ N/m
+PRESSURE_STIFFNESS       =  82273               
+FLOAD_MAX                =  12000               $ N
+$-----------------------------------------------------------------STANDSTILL
+[STANDSTILL]  
+cLong                    =  0.01                
+cSide                    =  0.20                
+vMax                     =  0.25                
+$-----------------------------------------------------------------SCALE
+[SCALE]  
+LatSlipStiff             =  1                   $ -
+LongSlipStiff            =  1                   $ -
+BeltCompl                =  1                   $ -
+TorsStiff                =  1                   $ -
+GlobalFric               =  1                   $ -
+TreadDepth               =  1                   $ -
+LongStiff                =  1                   $ -
+LatStiff                 =  1                   $ -
+VertStiff                =  1                   $ -
+RR                       =  1                   $ -
+LmuP                     =  1                   $ -
+$-----------------------------------------------------------------DATA
+[DATA]  
+{CData} 
+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

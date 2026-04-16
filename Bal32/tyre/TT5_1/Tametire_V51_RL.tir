@@ -1,0 +1,83 @@
+$-----------------------------------------------------------------TAMETIRE_HEADER
+[TAMETIRE_HEADER]  
+FILE_TYPE                =  'tir'               
+FILE_VERSION             =  5.1                 
+FILE_FORMAT              =  'ASCII'             
+(COMMENTS) 
+{comment_string} 
+'MICHELIN AR_FE_A5_FV_510_RR_R017_Jag 270 / 68 18'
+$-----------------------------------------------------------------UNITS
+[UNITS]  
+LENGTH                   =  'meter'             
+FORCE                    =  'newton'            
+ANGLE                    =  'radians'           
+MASS                     =  'kg'                
+TIME                     =  'second'            
+$-----------------------------------------------------------------MODEL
+[MODEL]  
+PROPERTY_FILE_FORMAT     =  'TAMETIRE'          
+USER_ID                  =  'JAG'               
+$-----------------------------------------------------------------INITIAL_CONDITIONS
+[INIT]  
+Time                     =  0                   
+TGI                      =  70                  
+TempSurf                 =  70                  
+TempTrack                =  20                  
+TempCore                 =  70                  
+TempRim                  =  25                  
+InfPress                 =  1.60                
+TAirInterne              =  10                  
+$-----------------------------------------------------------------MODEL_CONDITIONS
+[PARAMETERS]  
+SolverMode               =  2                   
+CalcOpt                  =  1                   
+CalcFrame                =  1                   
+Side                     =  'right'             
+ImposedPressure          =  1                   
+WearAndDegradation       =  0                   
+$-----------------------------------------------------------------LIMIT
+[LIMIT]  
+{IncAng} 
+-0.100000000000000 0.100000000000000
+{Deflec} 
+0.000000000000000 0.042404744808246
+{TempSurf} 
+10.000000000000000 200.000000000000000
+{TCore} 
+10.000000000000000 200.000000000000000
+$-----------------------------------------------------------------DIMENSION
+[DIMENSION]  
+UNLOADED_RADIUS          =  0.34040             $ m
+RIM_RADIUS               =  0.229               $ m
+ASPECT_RATIO             =  0.68                $ -
+WIDTH                    =  0.270               $ m
+RIM_WIDTH                =  0.279               $ m
+$-----------------------------------------------------------------VERTICAL
+[VERTICAL]  
+VERTICAL_DAMPING         =  3500                
+STIFFNESS                =  264966              
+VERTICAL_STIFFNESS       =  120800              $ N/m
+PRESSURE_STIFFNESS       =  90104               
+FLOAD_MAX                =  12000               $ N
+$-----------------------------------------------------------------STANDSTILL
+[STANDSTILL]  
+cLong                    =  0.01                
+cSide                    =  0.20                
+vMax                     =  0.25                
+$-----------------------------------------------------------------SCALE
+[SCALE]  
+LatSlipStiff             =  1                   $ -
+LongSlipStiff            =  1                   $ -
+BeltCompl                =  1                   $ -
+TorsStiff                =  1                   $ -
+GlobalFric               =  1                   $ -
+TreadDepth               =  1                   $ -
+LongStiff                =  1                   $ -
+LatStiff                 =  1                   $ -
+VertStiff                =  1                   $ -
+RR                       =  1                   $ -
+LmuP                     =  1                   $ -
+$-----------------------------------------------------------------DATA
+[DATA]  
+{CData} 
+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
