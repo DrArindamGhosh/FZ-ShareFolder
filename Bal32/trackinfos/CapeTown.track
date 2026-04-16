@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Condition options -
+Sky: Clear, Hazy, Cloudy, Overcast, Raining.
+Track: Dry, Damp, Wet, Wet-Drying, Full-Wet. 
+-->
+<track>   
+	<Weather Notes="Weather for different sessions (Units: degC hPa percent)">
+		<Shakedown 	AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="24/02/23 12:00:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Practice1  AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="24/02/23 16:55:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Practice2	AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="25/02/23 09:05:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Practice3 	AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="25/02/23 09:05:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Qualifying AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="25/02/23 12:40:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Race 		AirTemperature="22.0" TrackTemperature="34.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="25/02/23 16:03:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+	</Weather>
+	<Tyres>
+		<Shakedown 	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice1	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice2	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice3	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />		
+		<Qualifying	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Race		FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+	</Tyres>
+	<TrackEvolution Notes="Multiplying factor on Grip Vector depending on session"
+		Shakedown="1.0"	Practice1="1.0" Practice2="1.0" Practice3="1.0" Qualifying="1.0" Race="1.0" />
+</track>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Condition options -
+Sky: Clear, Hazy, Cloudy, Overcast, Raining.
+Track: Dry, Damp, Wet, Wet-Drying, Full-Wet. 
+-->
+<track>   
+	<Weather Notes="S06BRL Prediction (Units: degC hPa percent)">
+		<Shakedown 	AirTemperature="22.0" TrackTemperature="27.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="12/08/22 17:30:50" TrackConditions="Damp" SkyConditions="Cloudy"/>
+		<Practice1 	AirTemperature="24.0" TrackTemperature="34.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="13/08/22 07:30:10" TrackConditions="Wet" SkyConditions="Hazy"/>
+		<Practice2	AirTemperature="21.0" TrackTemperature="26.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="13/08/22 08:30:00" TrackConditions="Dry" SkyConditions="Clear"/>
+		<Practice3 	AirTemperature="18.0" TrackTemperature="22.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="13/08/22 09:00:00" TrackConditions="Dry" SkyConditions="Cloudy"/>
+		<Qualifying AirTemperature="23.0" TrackTemperature="28.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="13/08/22 10:40:00" TrackConditions="Full-Wet" SkyConditions="Raining"/>
+		<Race 		AirTemperature="20.0" TrackTemperature="30.0" AmbientPressure="1000.0" AmbientHumidity="50.0"
+					SessionStart="13/08/22 15:00:00" TrackConditions="Wet-Drying" SkyConditions="Overcast"/>
+	</Weather>
+	<Tyres>
+		<Shakedown 	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+					FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice1	FL_Temperature="38.0"	FR_Temperature="38.0" 	RL_Temperature="38.0" 	RR_Temperature="38.0"
+					FL_SurfaceTemperature="38.0"	FR_SurfaceTemperature="38.0" 	RL_SurfaceTemperature="48.0" 	RR_SurfaceTemperature="48.0"
+		            FL_Pressure="1.32"		FR_Pressure="1.32"		RL_Pressure="1.32"		RR_Pressure="1.32"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice2	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="55.0"	FR_SurfaceTemperature="55.0" 	RL_SurfaceTemperature="55.0" 	RR_SurfaceTemperature="55.0"
+		            FL_Pressure="1.4"		FR_Pressure="1.4"		RL_Pressure="1.4"		RR_Pressure="1.4"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice3	FL_Temperature="18.0"	FR_Temperature="18.0" 	RL_Temperature="18.0" 	RR_Temperature="18.0"
+					FL_SurfaceTemperature="55.0"	FR_SurfaceTemperature="55.0" 	RL_SurfaceTemperature="55.0" 	RR_SurfaceTemperature="55.0"
+		            FL_Pressure="1.4"		FR_Pressure="1.4"		RL_Pressure="1.4"		RR_Pressure="1.4"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />					
+		<Qualifying	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+					FL_SurfaceTemperature="25.0"	FR_SurfaceTemperature="25.0" 	RL_SurfaceTemperature="25.0" 	RR_SurfaceTemperature="25.0"
+		            FL_Pressure="1.22"		FR_Pressure="1.22"		RL_Pressure="1.22"		RR_Pressure="1.22"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Race		FL_Temperature="75.0"	FR_Temperature="75.0" 	RL_Temperature="75.0" 	RR_Temperature="75.0"
+					FL_SurfaceTemperature="75.0"	FR_SurfaceTemperature="75.0" 	RL_SurfaceTemperature="75.0" 	RR_SurfaceTemperature="75.0"
+		            FL_Pressure="1.4"		FR_Pressure="1.4"		RL_Pressure="1.4"		RR_Pressure="1.4"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+	</Tyres>
+	<TrackEvolution Notes="Multiplying factor on Grip Vector depending on session"
+		Shakedown="1.0"	Practice1="1.0" Practice2="1.0" Practice3="1.0" Qualifying="1.0" Race="1.0" />
+</track>

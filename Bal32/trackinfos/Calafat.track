@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<track>   
+	<Weather Notes="Weather for different sessions (Units: degC hPa percent)">
+		<Shakedown 	AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+		<Practice1 	AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+		<Practice2	AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+		<Practice3  AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+		<Qualifying AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+		<Race 		AirTemperature="17.0" TrackTemperature="24.0" AmbientPressure="1000.0" AmbientHumidity="50.0"/>
+	</Weather>
+	<Tyres>
+		<Shakedown 	FL_Temperature="38.0"	FR_Temperature="38.0" 	RL_Temperature="38.0" 	RR_Temperature="38.0"
+					FL_Pressure="1.5"		FR_Pressure="1.5"		RL_Pressure="1.5"		RR_Pressure="1.5"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice1	FL_Temperature="38.0"	FR_Temperature="38.0" 	RL_Temperature="38.0" 	RR_Temperature="38.0"
+					FL_Pressure="1.5"		FR_Pressure="1.5"		RL_Pressure="1.5"		RR_Pressure="1.5"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice2	FL_Temperature="38.0"	FR_Temperature="38.0" 	RL_Temperature="38.0" 	RR_Temperature="38.0"
+					FL_Pressure="1.5"		FR_Pressure="1.5"		RL_Pressure="1.5"		RR_Pressure="1.5"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Practice3	FL_Temperature="38.0"	FR_Temperature="38.0" 	RL_Temperature="38.0" 	RR_Temperature="38.0"
+					FL_Pressure="1.5"		FR_Pressure="1.5"		RL_Pressure="1.5"		RR_Pressure="1.5"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />				
+		<Qualifying	FL_Temperature="25.0"	FR_Temperature="25.0" 	RL_Temperature="25.0" 	RR_Temperature="25.0"
+		            FL_Pressure="1.42"		FR_Pressure="1.42"		RL_Pressure="1.42"		RR_Pressure="1.42"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+		<Race		FL_Temperature="30.0"	FR_Temperature="30.0" 	RL_Temperature="30.0" 	RR_Temperature="30.0"
+					FL_Pressure="1.4"		FR_Pressure="1.4"		RL_Pressure="1.4"		RR_Pressure="1.4"
+					FL_T2T1_Offset="0.0"	FR_T2T1_Offset="0.0"	RL_T2T1_Offset="0.0"	RR_T2T1_Offset="0.0" />
+	</Tyres>
+	<TrackEvolution Notes="Multiplying factor on Grip Vector depending on session"
+		Shakedown="1.0"	Practice1="1.0" Practice2="1.0" Practice3="1.0" Qualifying="1.0" Race="1.0" />
+</track>
