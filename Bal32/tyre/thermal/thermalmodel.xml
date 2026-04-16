@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes" ?>
+<thermal_tyre>
+  <track>
+    <params name="Min Track Temperature (deg)" value="60" />
+	<params name="Max Track Temperature (deg)" value="80" />
+  </track>
+  <front>
+    <params name="Surface Reset Temperature (deg)" value="110"/>
+    <params name="Bulk Reset Temperature (deg)" value="110"/>
+    <params name="Carcass Reset Temperature (deg)" value="110"/>
+    <params name="Rim Internal Reset Temperature (deg)" value="110"/>
+    <params name="Rim External Reset Temperature (deg)" value="110"/>
+    <params name="Kint" value="0.5"/>
+    <params name="K2sclC" value="2"/>
+    <params name="K1sclC" value="2"/>
+    <params name="kforz" value="1"/>
+    <params name="Kflatp" value="0.8"/>
+    <params name="Kflonp" value="0.8"/>
+    <params name="ht" value="300"/>
+    <params name="kQdotSel" value="0.4"/>
+    <params name="sGasToCarc" value="10"/>
+    <params name="AirTOff" value="120"/>
+    <params name="HC" value="1"/>
+    <params name="Tyre Radius" value="0.332"/>
+    <params name="Tyre Width" value="0.25"/>
+  </front>
+
+  <rear>
+    <params name="Surface Reset Temperature (deg)" value="105"/>
+    <params name="Bulk Reset Temperature (deg)" value="105"/>
+    <params name="Carcass Reset Temperature (deg)" value="105"/>
+    <params name="Rim Internal Reset Temperature (deg)" value="105"/>
+    <params name="Rim External Reset Temperature (deg)" value="105"/>
+    <params name="Kint" value="0.5"/>
+    <params name="K2sclC" value="2"/>
+    <params name="K1sclC" value="2"/>
+    <params name="kforz" value="1"/>
+    <params name="Kflatp" value="0.8"/>
+    <params name="Kflonp" value="0.8"/>
+    <params name="ht" value="400"/>
+    <params name="kQdotSel" value="0.1"/>
+    <params name="sGasToCarc" value="10"/>
+    <params name="AirTOff" value="70"/>
+    <params name="HC" value="2"/>
+    <params name="Tyre Radius" value="0.332"/>
+    <params name="Tyre Width" value="0.32"/>
+  </rear>
+
+  <scaling>
+    <!--Working under the assumption that the scaling factor is a polynomial of TGrip
+		A*Tg^5 + B*Tg^4 + C*Tg^3 + D*Tg^2 + E*Tg + F
+		min is the lowest limit so the polynomial will be clipped at this
+		TGrip is a function of the other 5 output temperatures combined
+		Tg = m*T1 + n*T2 + p*T3 + q*T4 + r*T5-->
+    <!--<function name="A" value="0.0"/>
+    <function name="B" value="-5.12687e-10"/>
+    <function name="C" value="3.33125e-7"/>
+    <function name="D" value="-8.11125e-5"/>
+    <function name="E" value="8.123e-3"/>
+    <function name="F" value="0.7176"/>
+    <function name="min" value="0.8"/>
+    -->
+    <table temp="0"   value="0.7"/>
+    <table temp="50"  value="0.96"/>
+    <table temp="70"  value="0.99"/>
+    <table temp="80"  value="0.995"/>
+    <table temp="90"  value="1.0"/>
+    <table temp="110" value="1.0"/>
+    <table temp="130" value="0.99"/>
+    <table temp="150" value="0.975"/>
+    <table temp="180" value="0.955"/>
+    <table temp="250" value="0.88"/>
+    
+    <function name="m" value="0.7"/>
+    <function name="n" value="0.0"/>
+    <function name="p" value="0.3"/>
+    <function name="q" value="0.0"/>
+    <function name="r" value="0.0"/>
+  </scaling>
+
+</thermal_tyre>
