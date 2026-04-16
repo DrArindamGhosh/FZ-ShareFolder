@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- This library covers simple grip factors for the basic surface types -->
+<library>
+
+	<!-- Tarmac surface T2/T6/7/8/11 -->
+	<model type="simplegrip" priority="0" surface_id="0">
+		<grip factor="1.0"/>
+	</model>	
+
+	<!-- Tarmac surface - T1 -->
+	<model type="simplegrip" priority="0" surface_id="1">
+		<grip factor="1.0"/>
+	</model>	
+
+        <!-- Tarmac surface - T4-5 -->
+	<model type="simplegrip" priority="0" surface_id="2">
+		<grip factor="1.0"/>
+	</model>
+
+        <!-- Tarmac surface  - T9-10) -->
+	<model type="simplegrip" priority="0" surface_id="3">
+		<grip factor="1.0"/>
+	</model>
+
+        <!-- Tarmac surface - T12-15 -->
+	<model type="simplegrip" priority="0" surface_id="4">
+		<grip factor="1.0"/>
+	</model>
+
+        <!-- Tarmac surface - T6 -->
+	<model type="simplegrip" priority="0" surface_id="5">
+		<grip factor="1.0"/>
+	</model>
+</library>

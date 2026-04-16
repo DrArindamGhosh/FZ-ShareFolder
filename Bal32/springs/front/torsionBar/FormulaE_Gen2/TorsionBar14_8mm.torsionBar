@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes" ?>
+<torsionBar>
+
+	<model>
+		<units angleUnits="rad" stiffnessUnits = "Nm/rad" />
+		<datapoint angle="0" 	stiffness="780" />
+		<datapoint angle="0.05" stiffness="900" />
+		<datapoint angle="0.1" 	stiffness="1020" />
+		<datapoint angle="0.15" stiffness="1090" />
+		<datapoint angle="0.2" 	stiffness="1120" />
+		<datapoint angle="0.25" stiffness="1160" />
+		<datapoint angle="0.5" 	stiffness="1360" />
+	</model>
+
+</torsionBar>

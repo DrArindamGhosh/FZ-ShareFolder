@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- This library covers simple grip factors for the basic surface types -->
+<library>
+	
+	<!-- T1/2/3 -->
+	<model type="simplegrip" priority="0" surface_id="0">
+		<grip factor="0.88"/>
+	</model>	
+	
+	<!-- T4 -->
+	<model type="simplegrip" priority="0" surface_id="1">
+		<grip factor="0.92"/>
+	</model>	
+	
+	<!-- T5 -->
+	<model type="simplegrip" priority="0" surface_id="2">
+		<grip factor="0.92"/>
+	</model>
+	
+	<!-- T6 -->
+	<model type="simplegrip" priority="0" surface_id="3">
+		<grip factor="0.92"/>
+	</model>
+	
+	<!-- T7 -->
+	<model type="simplegrip" priority="0" surface_id="4">
+		<grip factor="0.96"/>
+	</model>
+
+	<!-- T8 -->
+	<model type="simplegrip" priority="0" surface_id="5">
+		<grip factor="0.96"/>
+	</model>
+	
+	<!-- T9 -->
+	<model type="simplegrip" priority="0" surface_id="6">
+		<grip factor="0.96"/>
+	</model>
+	
+	<!-- T10/11 -->
+	<model type="simplegrip" priority="0" surface_id="7">
+		<grip factor="0.96"/>
+	</model>
+	
+	<!-- T12 -->
+	<model type="simplegrip" priority="0" surface_id="8">
+		<grip factor="0.96"/>
+	</model>
+	
+	<!-- UNUSED-->
+	<model type="simplegrip" priority="0" surface_id="9">
+		<grip factor="1"/>
+	</model>
+	
+	<!-- Kerbs -->
+	<model type="simplegrip" priority="0" surface_id="10">
+		<grip factor="1"/>
+	</model>
+</library>

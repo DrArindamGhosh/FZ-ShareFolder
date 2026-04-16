@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- This library covers simple grip factors for the basic surface types -->
+<library>
+
+	<!-- Tarmac surface (75% grip) -->
+	<model type="simplegrip" priority="0" surface_id="0">
+		<grip factor="0.98"/>
+	</model>	
+
+	<!-- Tarmac surface (80% grip) -->
+	<model type="simplegrip" priority="0" surface_id="1">
+		<grip factor="1"/>
+	</model>	
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="2">
+		<grip factor="1"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="3">
+		<grip factor="1"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="4">
+		<grip factor="1"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="5">
+		<grip factor="1"/>
+	</model>
+</library>

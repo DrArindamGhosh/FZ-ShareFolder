@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- This library covers simple grip factors for the basic surface types -->
+<library>
+
+	<!-- Tarmac surface -->
+	<model type="simplegrip" priority="0" surface_id="0">
+		<grip factor="1.02"/>
+	</model>	
+
+	<!-- White Lines + Manholes -->
+	<model type="simplegrip" priority="0" surface_id="1">
+		<grip factor="1.02"/>
+	</model>	
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="2">
+		<grip factor="1.02"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="3">
+		<grip factor="1.02"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="4">
+		<grip factor="1.02"/>
+	</model>
+
+        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="5">
+		<grip factor="0.98"/>
+	</model>
+	
+	        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="6">
+		<grip factor="0.98"/>
+	</model>
+	
+	        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="7">
+		<grip factor="0.98"/>
+	</model>
+	
+	        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="8">
+		<grip factor="0.98"/>
+	</model>
+	
+	        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="9">
+		<grip factor="0.98"/>
+	</model>
+	
+		        <!-- Tarmac surface (85% grip) -->
+	<model type="simplegrip" priority="0" surface_id="10">
+		<grip factor="0.98"/>
+	</model>
+</library>

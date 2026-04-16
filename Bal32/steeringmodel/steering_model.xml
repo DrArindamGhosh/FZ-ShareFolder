@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<steering_model id="steering_model">
+	<column column_stiffness_Nmrad="212.567" pinion_radius_m="0.007875"/>
+	<rack rack_to_road_ratio_radpm="11.24" rack_stop_LHS_m="-0.046" rack_stop_RHS_m="0.046"  damping_Npmps="8000.0"/>
+	<friction constant_friction_N="0.0" stationary_friction_N="400.0"/>
+	<suspension single_upright_inertia_kgm2="0.54"/>
+	
+	<pas_model PAS_stiffness_Npm="1594900.0">
+		<pas_curve torque_Nm="0.000" force_N="0.0"/>
+		<pas_curve torque_Nm="1.000" force_N="1.85"/>
+		<pas_curve torque_Nm="2.000" force_N="6.25"/>
+		<pas_curve torque_Nm="3.000" force_N="70.5"/>
+		<pas_curve torque_Nm="4.000" force_N="150.2"/>
+		<pas_curve torque_Nm="5.000" force_N="353.75"/>
+		<pas_curve torque_Nm="6.000" force_N="646"/>
+		<pas_curve torque_Nm="7.000" force_N="996"/>
+		<pas_curve torque_Nm="8.00"  force_N="1312"/>
+		<pas_curve torque_Nm="9.00"  force_N="1606"/>
+		<pas_curve torque_Nm="10.00" force_N="1858"/>
+		<pas_curve torque_Nm="11.00" force_N="2069"/>
+		<pas_curve torque_Nm="12.00" force_N="2237"/>
+		<pas_curve torque_Nm="13.00" force_N="2361"/>
+		<pas_curve torque_Nm="14.00" force_N="2456"/>
+		<pas_curve torque_Nm="15.00" force_N="2527"/>
+		<pas_curve torque_Nm="16.00" force_N="2585"/>
+		<pas_curve torque_Nm="17.00" force_N="2628"/>
+		<pas_curve torque_Nm="18.00" force_N="2663"/>
+		<pas_curve torque_Nm="19.00" force_N="2692"/>
+		<pas_curve torque_Nm="20.00" force_N="2709"/>
+		<pas_curve torque_Nm="21.00" force_N="2724"/>
+		<pas_curve torque_Nm="22.00" force_N="2751"/>
+		<pas_curve torque_Nm="23.00" force_N="2770"/>
+	</pas_model>
+</steering_model>

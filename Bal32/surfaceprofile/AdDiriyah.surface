@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- This library covers simple grip factors for the basic surface types -->
+<library>
+
+	<!-- T1-T5 -->
+	<model type="simplegrip" priority="0" surface_id="0">
+		<grip factor="0.95"/>
+	</model>	
+
+	<!-- T6-T8 -->
+	<model type="simplegrip" priority="0" surface_id="1">
+		<grip factor="0.95"/>
+	</model>	
+
+    <!-- T9-T13 -->
+	<model type="simplegrip" priority="0" surface_id="2">
+		<grip factor="0.95"/>
+	</model>
+
+    <!-- T14-T17 -->
+	<model type="simplegrip" priority="0" surface_id="3">
+		<grip factor="0.95"/>
+	</model>
+
+    <!-- T18-T21 -->
+	<model type="simplegrip" priority="0" surface_id="4">
+		<grip factor="0.95"/>
+	</model>
+
+     <!-- Not used -->
+	<model type="simplegrip" priority="0" surface_id="5">
+		<grip factor="0.95"/>
+	</model>
+</library>

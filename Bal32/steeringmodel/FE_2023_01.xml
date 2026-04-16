@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<!--Copy of F312_2016_01-->
+<steering_model id="F3">
+	<column column_stiffness_Nmrad="120.567" pinion_radius_m="0.0067326"/>
+	<!--<rack rack_to_road_ratio_radpm="10.256" rack_stop_LHS_m="-0.055" rack_stop_RHS_m="0.055"  damping_Npmps="8000.0"/>-->
+  <rack rack_to_road_ratio_radpm="11.329" rack_stop_LHS_m="-0.0425" rack_stop_RHS_m="0.0425"  damping_Npmps="8000.0"/>
+	<friction constant_friction_N="150.0" stationary_friction_N="400.0"/>
+	<suspension single_upright_inertia_kgm2="0.54"/>
+</steering_model>
