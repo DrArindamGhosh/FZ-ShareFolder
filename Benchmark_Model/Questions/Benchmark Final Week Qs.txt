@@ -1,0 +1,8 @@
+Questions:
+
+Eq. 4.28 takes into account a scaling factor, but when applied like in the paper, the target acceleration is minimal. Is the scaling factor correct?
+Would you agree with the formula for mass x acceleration = longThrust?
+
+Anti-slip/Anti-Lock Functions applied. Are they correct? How is it meant to behave? 
+Returning a value of 0-1 with smoothing functions applied affects the longitudinal thrust. So all calculations should be the same
+Verification of units - balance outputs kph or m/s

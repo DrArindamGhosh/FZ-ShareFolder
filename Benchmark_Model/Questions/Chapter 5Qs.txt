@@ -1,0 +1,14 @@
+Torque Model Questions:
+
+What are the Wheel Radii?
+How do you determine Wheel Rotational Speeds? Speed (mpm)/Circumference of Wheel (m)
+Is throttle input needed when torque is being applied in balance, i.e the engine map section
+What is the gear ratio? Is it a constant? Can we acquire a value?
+Aerodynamic Drag Coefficient need at eq. 4.29 and 5.5? If so
+Any idea for constant parameters used for determining fixed ratio of braking torque distribution
+Ebrk = maxEngineBrakeTorque = 4000? Clarification or calculation (250kW front/350kW rear)
+
+Ideal Velocity?
+Parameters considered - Current Velocity, Current Steering Input, Curvature/Radius of Track at target point
+Are there any more parameters which should be considered?
+Is there a known formula for devising target velocity?
