@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="yes" ?>
+<aero_levels>
+	<level name="S9 v0_2" map_file="xml\base\FE_S9_BaseMap_v2.xml" front_file="xml\front\FE_S9_Front_v2.xml" rear_file="xml\rear\FE_S9_Rear_v2.xml" />
+	<!-- The S9 base map v1 is a copy of the FE_S5_BaseMap_v2, with the grid value to apply offsets adjusted -->
+</aero_levels>

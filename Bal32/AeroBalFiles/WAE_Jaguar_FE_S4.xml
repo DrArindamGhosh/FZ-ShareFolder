@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes" ?>
+<aero_levels>
+    <level name="WT2 Release 1 - 171121" map_file="xml\base\FE_S4_BaseMap_171121.xml" front_file="xml\front\FE_S4_Front_171121.xml" rear_file="xml\rear\FE_S4_Rear_171121.xml" />
+</aero_levels>

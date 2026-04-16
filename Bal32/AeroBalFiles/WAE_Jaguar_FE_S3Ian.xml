@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes" ?>
+<aero_levels>
+    <level name="Beta Aero Data" map_file="xml\base\Aeromap_WAE_Jaguar_FE_S3Ian.xml" front_file="xml\front\WAE_Jaguar_FE_S3_FrontIan.xml" rear_file="xml\rear\WAE_Jaguar_FE_S3_RearIan.xml" />
+</aero_levels>
