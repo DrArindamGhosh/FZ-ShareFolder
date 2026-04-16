@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes" ?>
+<massDamper>
+	<!-- basic coefficients for the mass-damper system going here -->
+	<!-- this is the first draft of the config for development purposes -->
+	<!-- goes solid -->
+	<properties zOffset = "0" mass = "8.5" springRate="3654" dampingCoeff = "10000" />
+</massDamper>

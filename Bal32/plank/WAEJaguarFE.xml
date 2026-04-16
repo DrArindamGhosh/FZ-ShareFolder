@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+<plank>
+
+	<!-- the front of the plank has a non-linear load/deflection -->
+	<!-- characteristic. it starts-off fairly soft and then -->
+	<!-- goes solid -->
+
+	<front mu_1="0.27" >
+		<profile load_N="0.0" defl_mm="0.0" />
+		<profile load_N="700.0" defl_mm="2.6" />
+		<profile load_N="2000.0" defl_mm="4.0" />
+	</front>
+
+	<!-- the rear has no "soft region" becuase it's not -->
+	<!-- attached to a bendy bib -->
+
+	<rear mu_1="0.27" >
+		<profile load_N="0.0" defl_mm="0.0" />
+		<profile load_N="1500.0" defl_mm="1.0" />
+	</rear>
+
+</plank>
