@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<brake_disc_model  >
+
+		<faceHeight_m			value="0.0310"/>
+		<maxOuterRadius_m		value="0.1290"/>
+		<maxInnerRadius_m		value="0.0775"/>
+		<thickness_m			value="0.018"/>
+		<holeRegionThickness_m 	value="0.0135"/> <!-- no holes for S9 but not used anyway -->
+		<nHolesPerRow_1 		value="0"/>
+		<nRows_1 				value="0"/>
+		<holeDiameter_m 		value="0"/>
+		<density_kg_p_m3  		value="1770"/>			
+		<emissivity  			value="0.86"/>
+		<discName  				value="XC1.E9.10"/>
+		
+		<conductivity_A 		value="0.0000504504"/>
+		<conductivity_B 		value="-0.1175816657"/>
+		<conductivity_C			value="95.3535143061"/>
+		
+		<emissivity_A 			value="-0.000000350"/>
+		<emissivity_B 			value="0.0007000000"/>
+		<emissivity_C			value="0.6045000000"/>  		
+		
+		<SHC_A 					value="-0.0006421534"/>
+		<SHC_B 					value="2.1282538705"/>
+		<SHC_C					value="231.2870659527"/>
+		
+		<Pad_A 					value="-6.42921E-06"/>
+		<Pad_B 					value="0.001263687"/>
+		<Pad_C					value="-0.153428059"/>
+		
+		<mass_kg				value="1.3"/>
+		<percentageSurface		value="15" />
+		<Temperature_init_degC	value="20" />
+	
+</brake_disc_model>
+

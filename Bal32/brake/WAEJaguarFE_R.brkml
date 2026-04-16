@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<brake_model  axle="rear">
+	<assembly disc="any" pad="any">
+	
+		<transition_energy_J	value="0.9E5"	/>
+		<mu_initial_1			value="0.48"	/>
+		<threshold_pressure_Pa	value="250000000000.0"	/>
+	
+		<energy_profile
+			e0="0"
+			e1="0"
+			e2="0"	/>
+	
+		<pressure_profile
+			p0="0"
+			p1="0"
+			p2="0"	/>
+				
+		<Pad_temperature_init_degC	value="20" 			/>
+		<Pad_area_m2				value="0.00788"		/>
+		<Pad_thickness_m			value="0.018"		/>
+		<Pad_mass_kg				value="0.162"		/>
+		<Piston_area_m2				value="0.002294"	/>
+		<Percentage_HeatIntoDisc	value="0.8"			/>
+		<AirAccelerator_Duct		value="1"			/>
+		<Rim_Temperature			value="30"			/>
+		<Rim_conductionLength		value="0.5"			/>
+		<disc_conductivity			value="23"			/>
+		<ToffsetContactArea			value="150"			/>
+	</assembly>
+</brake_model>
