@@ -1,0 +1,3 @@
+<?xml version="1.0" standalone="yes"?>
+<bumprubber>
+	<compliant><value load="0.00000" deflection="0.00000"/><value load="2000.00000" deflection="0.10000"/><value load="4000.00000" deflection="0.20000"/></compliant><true><value load="0.00000" deflection="0.00000"/><value load="5000.00000" deflection="0.10000"/><value load="10000.00000" deflection="0.20000"/></true><raw/><userdata><comment>The "true" version of "none" is 2.5x as stiff</comment></userdata></bumprubber>
