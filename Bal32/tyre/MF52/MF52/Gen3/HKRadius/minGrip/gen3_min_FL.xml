@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tyre xmlns="http://intranet.williams.co.uk/tyre" Comment="from tir">
+   <FM_MF52rev1 Notes="WAE MF52 T.T.V. Tyre Model Version 1">
+      <FM_MF52_Model Fz_Direction="UP" Ref_Frame="ISO-W"/>
+      <FM_MF52_Basic_Coefficients FZ0="3000" R0="0.3295" TI0="70" TS0="50" a="0.1"/>
+      <FM_MF52_Longitudinal_Coefficients PCX1="1.5564" PDX1="1.6" PDX2="-0.13636" PDX3="9.968" PEX1="0.0012912"
+                                         PEX2="-0.0006454"
+                                         PEX3="0.0002957"
+                                         PEX4="242.33"
+                                         PHX1="-6.169e-05"
+                                         PHX2="0.00036416"
+                                         PKX1="73.06"
+                                         PKX2="30.326"
+                                         PKX3="-0.1797"
+                                         PTX1="0"
+                                         PTX2="0"
+                                         PTX3="0"
+                                         PTX4="0"
+                                         PTX5="0"
+                                         PTX6="0"
+                                         PTX7="0"
+                                         PTX8="0"
+                                         PVX1="0.013867"
+                                         PVX2="-0.01582"
+                                         RBX1="11.575"
+                                         RBX2="-11.669"
+                                         RCX1="1.1675"
+                                         REX1="-5.383"
+                                         REX2="-6.418"
+                                         RHX1="-0.003895"/>
+      <FM_MF52_Lateral_Coefficients PCY1="1.419" PDY1="1.3967" PDY2="-0.24936" PDY3="3.8094" PEY1="-1.1162"
+                                    PEY2="-1.4432"
+                                    PEY3="-0.16985"
+                                    PEY4="-3.566"
+                                    PEY5="0"
+                                    PHY1="-0.002436"
+                                    PHY2="-0.0019086"
+                                    PHY3="-0.0039665"
+                                    PKY1="-59.59"
+                                    PKY2="2.4037"
+                                    PKY3="1.2788"
+                                    PTY1="1.3597"
+                                    PTY2="2.961"
+                                    PTY3="0"
+                                    PTY4="0"
+                                    PTY5="0"
+                                    PTY6="0"
+                                    PTY7="0"
+                                    PTY8="0"
+                                    PVY1="-0.03954"
+                                    PVY2="-0.015377"
+                                    PVY3="-1.792"
+                                    PVY4="-0.7242"
+                                    RBY1="6.382"
+                                    RBY2="0.20768"
+                                    RBY3="0.0002649"
+                                    RCY1="1.2055"
+                                    REY1="-2.0524"
+                                    REY2="-2.298"
+                                    RHY1="0.002244"
+                                    RHY2="0.00332"
+                                    RVY1="0.0005875"
+                                    RVY2="0.0009194"
+                                    RVY3="-0.12472"
+                                    RVY4="-182.36"
+                                    RVY5="1.9"
+                                    RVY6="199.98"/>
+      <FM_MF52_Aligning_Coefficients QBZ1="15.057" QBZ10="0" QBZ2="1.57" QBZ3="0.8081" QBZ4="0" QBZ5="0.5583"
+                                     QBZ9="18.78"
+                                     QCZ1="1.2103"
+                                     QDZ1="0.0795"
+                                     QDZ2="0.01329"
+                                     QDZ3="-0.0040985"
+                                     QDZ4="0"
+                                     QDZ6="-0.016288"
+                                     QDZ7="0.010288"
+                                     QDZ8="-0.6411"
+                                     QDZ9="-0.21366"
+                                     QEZ1="-2.977"
+                                     QEZ2="2.262"
+                                     QEZ3="0"
+                                     QEZ4="0.05903"
+                                     QEZ5="-10.69"
+                                     QHZ1="-0.00020427"
+                                     QHZ2="-8.431e-05"
+                                     QHZ3="0.08946"
+                                     QHZ4="-0.10934"
+                                     SSZ1="0.010932"
+                                     SSZ2="0.027934"
+                                     SSZ3="1.762"
+                                     SSZ4="-0.7646"/>
+      <FM_MF52_Scaling_Coefficients LCX="1" LCY="1" LEX="1" LEY="1" LGAX="1" LGAY="1" LGAZ="1" LGYR="1" LHX="1"
+                                    LHY="1"
+                                    LKX="1"
+                                    LKY="1"
+                                    LMUX="1"
+                                    LMUY="1"
+                                    LMX="1"
+                                    LMY="1"
+                                    LRES="1"
+                                    LS="1"
+                                    LSGAL="1"
+                                    LSGKP="1"
+                                    LTR="1"
+                                    LVMX="1"
+                                    LVX="1"
+                                    LVY="1"
+                                    LVYKA="1"
+                                    LXAL="1"
+                                    LYKA="1"
+                                    LFZ0="1"/>
+      <FM_MF52_Brush_Coefficients/>
+      <FM_MF52_Transient_Coefficients relaxX="0.1" relaxY="0.5"/>
+      <FM_MF52_Limits FzMax="5500" FzMin="100"/>
+      <FM_MF52_Units Angle="rad" Force="N" Length="m" Moment="Nm" Temperature="degC"/>
+   </FM_MF52rev1>
+   <FM_InputLimits AlphaMax="1.57" AlphaMin="-1.57" GammaMax="0.07" GammaMin="-0.07"
+                   KappaMax="1.5"
+                   KappaMin="-1.5"/>
+   <CD_ConstantWidth>
+      <CD_ConstantWidth_Coefficients WGROOVE="0.0435" WOVERALL="0.255"/>
+   </CD_ConstantWidth>
+   <FM_TransientSlip_None Notes="No Transient Slip Model"/>
+   <LR_PirV1 From="" Notes="" Reference="">
+      <LR_PirV1_Coefficients A1="-5.0158e-05" A2="0.21336" A3="113.1513" B1="-6.8149e-05" B2="0.0065405"
+                             C1="-0.17113"
+                             F1="0"
+                             F2="0"
+                             P1="4.7759"
+                             R0="319.9"/>
+      <LR_PirV1_Soften FZSFT="100" PFZSFT="2.5" R0SFT="1"/>
+      <LR_PirV1_Damping CT="0.46" FC="100"/>
+      <LR_PirV1_Units Angle="deg" Force="N" Length="mm" Pressure="psi" Velocity="km/h"/>
+   </LR_PirV1>
+   <ERR_PiV2 From="" Notes="" Reference="">
+      <ERR_PiV2_Coefficients A="-0.049308" B="-0.15927" D="6.0283e-07" E="1.0417e-09" F="1.2716" R0="327.5"/>
+      <ERR_PiV2_Units Force="N" Length="mm" Pressure="psi" Velocity="km/h"/>
+   </ERR_PiV2>
+   <RR_PiV1 From="" Notes="">
+      <RR_PiV1_Coefficients A="2007200000" B="1.01e-05" C="0.00087" D="-0.83986" E="4.946" F="-8.0998e-06"
+                            G="2.43e-06"
+                            H="2.448e-05"
+                            I="14038"
+                            RR0="38.5"/>
+      <RR_PiV1_Longitudinal_Moment DKEXV="-1.1084e-06" FZNOM="4000" KEXNOM="6.299e-08" PEXV="1" PEXZ="-0.1894"
+                                   VNOM="200"/>
+      <RR_PiV1_Units Angle="deg" Force="N" Pressure="psi" Velocity="km/h"/>
+   </RR_PiV1>
+   <DYNAMIC_Williams RelaxationLength_m="0.5"/>
+</Tyre>
