@@ -1,0 +1,706 @@
+<?xml version="1.0" standalone="yes" ?>
+<damper>
+
+	<!-- This file is the initial reference for all possible combinations of HS, LS and Blow off for the FE car-->
+
+	<generalinformation>
+		<summarydate value="01/09/2016"/>
+		<summarycomment value="Front side damper, Sachs 4 Way Blow off HS"/>
+		<maximumlength value="227.5"/>
+		<minimumlength value="187.5"/>
+		<ratioPot2Damper value="1"/>	
+	</generalinformation>
+
+	<!-- Fixed gas force model -->
+
+	<model type="constant load" gasforce="yes" >
+		<data loadunits="N" >
+			<datapoint load="263.80"/>
+		</data>
+	</model>
+
+	<!-- End Stops model -->
+	
+	<model type="end stops">
+		<data rateunits="N/m" loadunits="N" loadlimit="10000">
+			<datapoint rate="10000000.0"/>
+		</data>
+	</model>
+
+	<!-- "Traditional" damper -->
+
+	<model type="complex viscous" >
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B1" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B2" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B3" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B4" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B5" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B6" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B7" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B8" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B9" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B10" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B11" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B12" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B13" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B14" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B15" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="shortening" name="B16" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="-16.5" load="-0.292" temp="50"/>
+				<datapoint speed="-30.5" load="-0.54" temp="49"/>
+				<datapoint speed="-48" load="-0.8514189" temp="49"/>
+				<datapoint speed="-97" load="-0.896" temp="49"/>
+				<datapoint speed="-191.5" load="-0.893" temp="48"/>
+				<datapoint speed="-397.5" load="-1.1745974" temp="48"/>
+				<datapoint speed="-600.0" load="-1.65" temp="48"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R1" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R2" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R3" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R4" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R5" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R6" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R7" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R8" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R9" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>	
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R10" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R11" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>	
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R12" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R13" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>			
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R14" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R15" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>	
+			</data>
+		</setting>
+		<setting>
+			<information>
+				<filename value="Sachs4WayBlowoffHS.dmpml"/>
+				<testdate value="TBD"/>
+				<damperserial value="TBD"/>
+				<damperspec value="Sachs 4 Way Blow off HS Front"/>
+				<dampertype value="Front"/>
+				<damperdesign value="Sachs"/>
+				<comment value=""/>
+			</information>
+			<data type="lengthening" name="R16" speedunits="mm/s" loadunits="kN" tempunits="deg C" >
+				<datapoint speed="0" load="0" temp="50"/>
+				<datapoint speed="18.25" load="0.1132" temp="50"/>
+				<datapoint speed="32.5" load="0.2788" temp="49"/>
+				<datapoint speed="50.25" load="0.4823" temp="49"/>
+				<datapoint speed="100" load="0.8760" temp="49"/>
+				<datapoint speed="194.25" load="1.4895" temp="48"/>
+				<datapoint speed="386" load="3.0251" temp="48"/>
+				<datapoint speed="591.5" load="3.48985" temp="49"/>		
+			</data>
+		</setting>
+	</model>
+</damper>

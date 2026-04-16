@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes" ?>
+<damper>
+
+	<!-- This file is the initial reference for possible combinations of the S9 damper 
+			-- Baseline - S09 Varano test baseline settings 
+			-- Optimised - S09 7PostRig findings -->
+
+	<generalinformation>
+		<summarydate value="03/10/2022"/>
+		<summarycomment value="Rear side damper, Sachs 4 Way Blow off"/>
+		<maximumlength value="325"/>
+		<minimumlength value="265"/>
+		<ratioPot2Damper value="1.0"/>		
+	</generalinformation>
+
+	<!-- Fixed gas force model -->
+
+	<model type="constant load" gasforce="yes" >
+		<data loadunits="N" >
+			<datapoint load="68"/>
+		</data>
+	</model>
+	<!-- End Stops model --> 
+
+	<model type="end stops">
+		<data rateunits="N/m" loadunits="N" loadlimit="10000">
+			<datapoint rate="10000000.0"/>
+		</data>
+	</model>
+
+	<!-- "Traditional" damper -->
+
+	<model type="complex viscous" >
+		<setting>
+		  <information>
+			 <filename value="Sachs4WayBlowoffHS.dmpml"/>
+			 <testdate value="TBD"/>
+			 <damperserial value="TBD"/>
+			 <damperspec value="Sachs 4 Way Blow off Rear"/>
+			 <dampertype value="Rear"/>
+			 <damperdesign value="Sachs"/>
+			 <comment value=""/>
+		  </information>
+		  <data loadunits="kN" name="B1" speedunits="mm/s" tempunits="deg C"
+				type="shortening">
+			 <datapoint load="0" speed="0" temp="50.0"/>
+			 <datapoint load="-0.11893625" speed="-14.5" temp="50.0"/>
+			 <datapoint load="-0.260425" speed="-32" temp="50.0"/>
+			 <datapoint load="-0.4716375" speed="-50.5" temp="50.0"/>
+			 <datapoint load="-0.8715125" speed="-96.5" temp="50.0"/>
+			 <datapoint load="-1.515375" speed="-189" temp="50.0"/>
+			 <datapoint load="-2.688375" speed="-383.75" temp="50.0"/>
+			 <datapoint load="-2.578125" speed="-600" temp="50.0"/>
+		  </data>
+	    </setting>
+	    <setting>
+		  <information>
+			 <filename value="Sachs4WayBlowoffHS.dmpml"/>
+			 <testdate value="TBD"/>
+			 <damperserial value="TBD"/>
+			 <damperspec value="Sachs 4 Way Blow off Rear"/>
+			 <dampertype value="Rear"/>
+			 <damperdesign value="Sachs"/>
+			 <comment value=""/>
+		  </information>
+		  <data loadunits="kN" name="R1" speedunits="mm/s" tempunits="deg C"
+				type="lengthening">
+			 <datapoint load="0" speed="0" temp="50.0"/>
+			 <datapoint load="0.10253125" speed="14.5" temp="50.0"/>
+			 <datapoint load="0.1989125" speed="32.25" temp="50.0"/>
+			 <datapoint load="0.3752625" speed="50.75" temp="50.0"/>
+			 <datapoint load="0.98635" speed="97" temp="50.0"/>
+			 <datapoint load="1.644625" speed="190" temp="50.0"/>
+			 <datapoint load="2.739625" speed="385.5" temp="50.0"/>
+			 <datapoint load="3.489875" speed="591.5" temp="50.0"/>
+		  </data>
+	   </setting>
+	</model>
+</damper>

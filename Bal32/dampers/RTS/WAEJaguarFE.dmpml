@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes" ?> 
+<damper>
+
+
+	<generalinformation>
+		<summarydate value="18/08/2016"/>
+		<summarycomment value="NONE damper for WAE Jaguar FE"/>
+	</generalinformation>
+
+	<model type="constant load" gasforce="yes">
+		<data loadunits="N" >
+			<datapoint load="0.0"/>
+		</data>
+	</model>
+
+</damper>
