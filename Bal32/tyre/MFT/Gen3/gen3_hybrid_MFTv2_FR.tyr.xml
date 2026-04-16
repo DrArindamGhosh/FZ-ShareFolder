@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tyre xmlns="http://intranet.williams.co.uk/tyre"
+      Comment="MFTv2 Based on Gen2 Tyre but with Hankook Minimum Model load and camber sensitivity">
+   <FM_MFTrev2 Notes="WAE MFT Tyre Model v2">
+      <FM_MFT_Model Fz_Direction="UP" Ref_Frame="ISO-W"/>
+      <FM_MFT_Basic_Coefficients FZ0="5000" R0="0.3199" TI0="70" TS0="50" a="0.1"/>
+      <FM_MFT_Longitudinal_Coefficients PCX1="1.4680319990" PDX1="1.452" PDX2="-0.23"
+                                        PDX3="10"
+                                        PEX1="0.2131368928"
+                                        PEX2="-0.1529642921"
+                                        PEX3="-0.2050296830"
+                                        PEX4="-0.4857804988"
+                                        PHX1="0.0008418357"
+                                        PHX2="-0.0007717649"
+                                        PKX1="29.0536470894"
+                                        PKX2="12.9717010038"
+                                        PKX3="-0.2737085983"
+                                        PTX1="0.4388205139"
+                                        PTX2="-0.4504577132"
+                                        PTX3="-0.081"
+                                        PTX4="-0.071"
+                                        PTX5="-0.051"
+                                        PTX6="0.0397"
+                                        PTX7="0.2729174195"
+                                        PTX8="-0.4114995596"
+                                        PVX1="-0.0279228993"
+                                        PVX2="0.0174857967"
+                                        RBX1="6.4321374107"
+                                        RBX2="11.5340884469"
+                                        RCX1="1.7061281968"
+                                        REX1="0.0520834793"
+                                        REX2="-1.5777659095"
+                                        RHX1="0.0000000000"/>
+      <FM_MFT_Lateral_Coefficients PCY1="1.4406691570" PDY1="1.355" PDY2="-0.42"
+                                   PDY3="3.2"
+                                   PEY1="-1.7109114299"
+                                   PEY2="-2.8651448459"
+                                   PEY3="-0.0919490792"
+                                   PEY4="-117.0585121820"
+                                   PHY1="-0.0009865988"
+                                   PHY2="-0.0008135681"
+                                   PHY3="-0.0052531933"
+                                   PKY1="-16.7739717352"
+                                   PKY2="1.6563032013"
+                                   PKY3="1.2053409300"
+                                   PTY1="0.2363861379"
+                                   PTY2="-0.2468395320"
+                                   PTY3="-0.08918"
+                                   PTY4="-0.07220"
+                                   PTY5="-0.05477"
+                                   PTY6="0.03803"
+                                   PTY7="0.0132052524"
+                                   PTY8="-0.0399205670"
+                                   PVY1="-0.0008091539"
+                                   PVY2="-0.0059000131"
+                                   PVY3="-1.79"
+                                   PVY4="-0.724"
+                                   RBY1="7.5414404740"
+                                   RBY2="5.1739452401"
+                                   RBY3="0.0000000000"
+                                   RCY1="1.5089599147"
+                                   REY1="0.9016232001"
+                                   REY2="-0.1998725144"
+                                   RHY1="-0.0045802333"
+                                   RHY2="0.0076715316"
+                                   RVY1="0.2341561374"
+                                   RVY2="-0.0539733244"
+                                   RVY3="5.4222142903"
+                                   RVY4="0.0000000000"
+                                   RVY5="1.8019414889"
+                                   RVY6="0.1187094713"/>
+      <FM_MFT_Aligning_Coefficients QBZ1="7.3938981520" QBZ10="1.0499983920" QBZ2="-2.9691252440"
+                                    QBZ3="0.8990071190"
+                                    QBZ4="2.8230480820"
+                                    QBZ5="5.9224578630"
+                                    QCZ1="1.1484782040"
+                                    QDZ1="0.0916833840"
+                                    QDZ2="-0.0150411410"
+                                    QDZ3="-2.6790359410"
+                                    QDZ4="-1.0882955030"
+                                    QDZ6="0.0023541330"
+                                    QDZ7="-0.0056940300"
+                                    QDZ8="0.3000000000"
+                                    QDZ9="0.3000000000"
+                                    QEZ1="-5.0347939590"
+                                    QEZ2="-9.9999534250"
+                                    QEZ3="0.0801225300"
+                                    QEZ4="-0.0068411920"
+                                    QEZ5="9.9132598960"
+                                    QHZ1="0.0019963520"
+                                    QHZ2="-0.0086206560"
+                                    QHZ3="0.3888229040"
+                                    QHZ4="-0.6497971110"
+                                    SSZ1="0"
+                                    SSZ2="0"
+                                    SSZ3="0"
+                                    SSZ4="0"/>
+      <FM_MFT_Scaling_Coefficients LCX="1.100" LCY="1.000" LEX="1.000" LEY="1.000" LGAX="1.000" LGAY="1.000"
+                                   LGAZ="1.000"
+                                   LHX="1.000"
+                                   LHY="1.000"
+                                   LKX="0.900"
+                                   LKY="1.050"
+                                   LMUX="0.880"
+                                   LMUY="0.990"
+                                   LRES="1.000"
+                                   LS="1.000"
+                                   LTR="1.000"
+                                   LVX="1.000"
+                                   LVY="1.000"
+                                   LVYKA="1.000"
+                                   LXAL="1.000"
+                                   LYKA="1.000"/>
+      <FM_MFT_Brush_Coefficients CPXB1="1595.9850116801" CPXB2="-3.5993276438" CPXB3="0.2006563102"
+                                 CPXB4="-1.0926412975"
+                                 CPXB5="-38.5361027008"
+                                 CPYB1="900.1856404544"
+                                 CPYB2="536.1554653281"
+                                 CPYB3="-0.8990579975"
+                                 CPYB4="-4.5506222806"
+                                 CPYB5="5.3744535281"
+                                 MUXB1="1.4254173235"
+                                 MUXB2="-0.2595792669"
+                                 MUXB3="0.3785369420"
+                                 MUYB1="1.7328375153"
+                                 MUYB2="-0.5155206509"
+                                 MUYB3="2.0530280029"/>
+      <FM_MFT_Thermal_Parameters airConductivity="0.02587" airKinViscosity="0.00001552" prandtl="0.705" rSpecific="287.058" airSpecificHeat="719"
+                                 rimSpecificHeat="910"
+                                 rimMass="7"
+                                 rimDiameter="0.4572"
+                                 rimHeatTransferArea="0.3"
+                                 percCP="0.07"
+								 percNonCP="0.93"
+								 rubberDensity="1000"
+								 roadTyreContactConductance="30000"
+								 brakeHeatTransferCoefficient="5"
+								 innerToGasScaling="4"
+								 gasToRimScaling="1"
+								 width="0.24"								 
+								 thickness="0.015"
+								 cpLengthA1="0.05"
+								 cpLengthA2="0.2"
+								 cpWidth="0.216"/>
+      <FM_MFT_Thermal_Coefficients percSurf="0.05" percInner="0.05" selCoefVert="0.0011"
+                                   selCoefHorz="0.01"
+                                   slidingCoef="0.45"
+                                   kSurf="4"
+                                   kCore1="4"
+                                   kCore2="3"
+                                   kCore3="2"
+								   kInner="0.6"
+								   rubberSpecificHeat="1700"
+								   surfaceCoolingScaling="0.8"
+								   roadCoolingScaling="0.05"/>
+	  <FM_MFT_LockingAideCoefficients LYKALK1="0.0034" LYKALK2="-5.891" LYKALK3="0.1"/>	      
+	  <FM_MFT_Transient_Coefficients relaxX="0.1" relaxY="0.5"/>
+      <FM_MFT_Limits FzMax="5500" FzMin="100"/>
+      <FM_MFT_Units Angle="rad" Force="N" Length="m" Moment="Nm" Temperature="degC"/>
+   </FM_MFTrev2>
+   <FM_InputLimits AlphaMax="1.57" AlphaMin="-1.57" GammaMax="0.07" GammaMin="-0.07"
+                   KappaMax="1.5"
+                   KappaMin="-1.5"/>
+   <CD_ConstantWidth>
+      <CD_ConstantWidth_Coefficients WGROOVE="0.0435" WOVERALL="0.24"/>
+   </CD_ConstantWidth>
+   <FM_TransientSlip_None Notes="No Transient Slip Model"/>
+   <LR_PirV1 From="" Notes="Hankook Radius" Reference="">
+      <LR_PirV1_Coefficients A1="-5.0158e-05" A2="0.21336" A3="113.1513" B1="-6.8149e-05" B2="0.0065405"
+                             C1="-0.17113"
+                             F1="0"
+                             F2="0"
+                             P1="4.7759"
+                             R0="327.5"/>
+      <LR_PirV1_Soften FZSFT="100.0000000000" PFZSFT="2.5000000000" R0SFT="1.0000000000"/>
+      <LR_PirV1_Damping CT="0.4600000000" FC="100.0000000000"/>
+      <LR_PirV1_Units Angle="deg" Force="N" Length="mm" Pressure="psi" Velocity="km/h"/>
+   </LR_PirV1>
+   <ERR_PiV2 From=""
+             Notes="Hankook Radius"
+             Reference="">
+      <ERR_PiV2_Coefficients A="-0.049308" B="-0.15927" D="6.0283e-07" E="1.0417e-09" F="1.2716" R0="327.5"/>
+      <ERR_PiV2_Units Force="N" Length="mm" Pressure="psi" Velocity="km/h"/>
+   </ERR_PiV2>
+   <RR_PiV1 From=""
+            Notes="Copied from Tyre used in S05 NYC DIL Prep - 0519W25DIL1D2V1 - Modified RR0 to adjust to efficiency work 20W39">
+      <RR_PiV1_Coefficients A="2007200000.0000000000" B="0.0000101" C="0.0008700000" D="-0.8398600000"
+                            E="4.9460000000"
+                            F="-0.0000080998"
+                            G="0.0000024300"
+                            H="0.0000244800"
+                            I="14038.0000000000"
+                            RR0="51.2480000000"/>
+      <RR_PiV1_Longitudinal_Moment DKEXV="-0.0000011084" FZNOM="4000.0000000000" KEXNOM="0.000000062990"
+                                   PEXV="1.0000000000"
+                                   PEXZ="-0.1894000000"
+                                   VNOM="200.0000000000"/>
+      <RR_PiV1_Units Angle="deg" Force="N" Pressure="psi" Velocity="km/h"/>
+   </RR_PiV1>
+   <DYNAMIC_Williams RelaxationLength_m="0.5"/>
+</Tyre>
